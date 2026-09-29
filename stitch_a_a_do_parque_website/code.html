@@ -1,0 +1,647 @@
+<!DOCTYPE html><html class="scroll-smooth dark stitch-anim-fade-in" lang="pt-BR" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Açaí do Parque — Parque Fernanda, São Paulo</title>
+<!-- Google Fonts: Playfair Display & Plus Jakarta Sans -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600&amp;family=Plus Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&amp;display=swap" rel="stylesheet">
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Theme Configuration Verbatim -->
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-primary": "#ffffff",
+            "on-surface-variant": "#4d444b",
+            "surface-variant": "#e5e2dd",
+            "error-container": "#ffdad6",
+            "outline-variant": "#d0c3cc",
+            "inverse-primary": "#e6b8e4",
+            "on-primary-fixed-variant": "#5e3a5e",
+            "on-surface": "#1c1c19",
+            "background": "#fcf9f4",
+            "surface-container-low": "#f6f3ee",
+            "tertiary-container": "#2e1500",
+            "on-error": "#ffffff",
+            "tertiary": "#000000",
+            "on-secondary-fixed": "#002113",
+            "surface-container-lowest": "#ffffff",
+            "inverse-surface": "#31302d",
+            "primary": "#000000",
+            "surface-bright": "#fcf9f4",
+            "secondary-fixed": "#c7ebd4",
+            "on-tertiary-container": "#c26f17",
+            "on-secondary-fixed-variant": "#2d4d3c",
+            "on-primary-container": "#a0769e",
+            "on-tertiary": "#ffffff",
+            "tertiary-fixed": "#ffdcc2",
+            "surface-container-high": "#ebe8e3",
+            "inverse-on-surface": "#f3f0eb",
+            "outline": "#7f747c",
+            "surface-container": "#f0ede9",
+            "on-secondary-container": "#496a57",
+            "surface-tint": "#775277",
+            "surface": "#fcf9f4",
+            "secondary-fixed-dim": "#abcfb8",
+            "on-tertiary-fixed": "#2e1500",
+            "on-background": "#1c1c19",
+            "secondary": "#456553",
+            "tertiary-fixed-dim": "#ffb77a",
+            "primary-fixed": "#ffd6fb",
+            "on-secondary": "#ffffff",
+            "on-primary-fixed": "#2e0f31",
+            "primary-fixed-dim": "#e6b8e4",
+            "secondary-container": "#c4e8d1",
+            "on-error-container": "#93000a",
+            "error": "#ba1a1a",
+            "surface-dim": "#dcdad5",
+            "primary-container": "#2e0f31",
+            "surface-container-highest": "#e5e2dd",
+            "on-tertiary-fixed-variant": "#6d3a00"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "space-lg": "1.75rem",
+            "space-sm": "0.5rem",
+            "margin": "3rem",
+            "space-xl": "3rem",
+            "margin-mobile": "1.25rem",
+            "gutter-mobile": "1rem",
+            "gutter": "1.5rem",
+            "space-xs": "0.25rem",
+            "space-md": "1rem"
+          },
+          "fontFamily": {
+            "body-md": ["Plus Jakarta Sans"],
+            "body-lg": ["Plus Jakarta Sans"],
+            "body-sm": ["Plus Jakarta Sans"],
+            "headline-lg-mobile": ["Playfair Display"],
+            "label-lg": ["Plus Jakarta Sans"],
+            "display-xl-mobile": ["Playfair Display"],
+            "price-display": ["Plus Jakarta Sans"],
+            "title-md": ["Plus Jakarta Sans"],
+            "headline-sm": ["Playfair Display"],
+            "display-xl": ["Playfair Display"],
+            "label-sm": ["Plus Jakarta Sans"],
+            "headline-lg": ["Playfair Display"],
+            "headline-md": ["Playfair Display"]
+          },
+          "fontSize": {
+            "body-md": ["15px", { "lineHeight": "22px", "fontWeight": "400" }],
+            "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+            "body-sm": ["13px", { "lineHeight": "18px", "fontWeight": "400" }],
+            "headline-lg-mobile": ["28px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+            "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "600" }],
+            "display-xl-mobile": ["38px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+            "price-display": ["20px", { "lineHeight": "24px", "letterSpacing": "-0.02em", "fontWeight": "800" }],
+            "title-md": ["18px", { "lineHeight": "24px", "fontWeight": "700" }],
+            "headline-sm": ["22px", { "lineHeight": "28px", "fontWeight": "500" }],
+            "display-xl": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "600" }],
+            "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "700" }],
+            "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.015em", "fontWeight": "600" }],
+            "headline-md": ["28px", { "lineHeight": "36px", "fontWeight": "500" }]
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-family: 'Material Symbols Outlined';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 20px;
+      line-height: 1;
+      letter-spacing: normal;
+      text-transform: none;
+      display: inline-block;
+      white-space: nowrap;
+      word-wrap: normal;
+      direction: ltr;
+      -webkit-font-feature-settings: 'liga';
+      -webkit-font-smoothing: antialiased;
+    }
+    .reduced-motion * {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  </style>
+<style id="custom-green-theme">
+  /* Approved primary green CTAs and Keeta order buttons */
+  .bg-primary-container,
+  a[href*="mykeeta.com"],
+  button.bg-primary-container {
+    background-color: #3D754A !important;
+    color: #ffffff !important;
+  }
+
+  /* Hover state for primary buttons and Keeta links */
+  .bg-primary-container:hover,
+  a[href*="mykeeta.com"]:hover,
+  button.bg-primary-container:hover,
+  .hover\:bg-black:hover {
+    background-color: #6B9B55 !important;
+    color: #ffffff !important;
+  }
+
+  /* Active category filter buttons and badges */
+  #categories-filter-bar button:first-child,
+  #categories-filter-bar button.bg-secondary {
+    background-color: #3D754A !important;
+    color: #ffffff !important;
+    border-color: #6B9B55 !important;
+  }
+
+  /* Secondary button styling for card order buttons and outline buttons */
+  .bg-secondary {
+    background-color: #3D754A !important;
+    color: #ffffff !important;
+  }
+  .bg-secondary:hover,
+  .hover\:bg-secondary\/90:hover {
+    background-color: #6B9B55 !important;
+  }
+
+  /* Evaluation stars */
+  .material-symbols-outlined[data-icon="star"],
+  .material-symbols-outlined[data-icon="star_half"],
+  .text-amber-400 {
+    color: #6B9B55 !important;
+  }
+
+  /* Borders with border-secondary */
+  .border-secondary,
+  .border-secondary\/60 {
+    border-color: #6B9B55 !important;
+  }
+
+  /* Links and highlights on text */
+  .text-secondary {
+    color: #6B9B55 !important;
+  }
+  .hover\:text-secondary:hover,
+  a:hover.hover\:text-secondary {
+    color: #6B9B55 !important;
+  }
+  .group:hover .group-hover\:text-secondary {
+    color: #6B9B55 !important;
+  }
+  .group:hover .group-hover\:border-secondary {
+    border-color: #6B9B55 !important;
+  }
+</style></head>
+<body class="bg-background text-on-surface font-body-md selection:bg-primary-container selection:text-surface-bright antialiased" style="background-color: rgb(19, 13, 20); color: rgb(245, 239, 247);">
+<!-- 1. TopNavBar (Fixed Shared Component Execution) -->
+<header class="fixed top-0 left-0 right-0 w-full z-50 bg-surface/85 backdrop-blur-md shadow-[0_4px_20px_-2px_rgba(40,9,43,0.04)]" style="background-color: rgba(19, 13, 20, 0.92); border-bottom: 1px solid rgba(255, 255, 255, 0.08); backdrop-filter: blur(12px);">
+<div class="flex justify-between items-center w-full px-6 md:px-12 max-w-7xl mx-auto h-20">
+<!-- Wordmark Logo -->
+<a class="flex items-center gap-3.5 group active:scale-95 transition-transform duration-150 py-1" href="#" title="Açaí do Parque — Início"><div class="w-12 h-12 md:w-14 md:h-14 rounded-full p-0.5 border-2 border-secondary/60 shadow-lg overflow-hidden bg-[#281b2b] shrink-0 group-hover:border-secondary transition-colors"><img alt="Logo Açaí do Parque" class="w-full h-full object-cover rounded-full" src="https://instagram.fcgh54-1.fna.fbcdn.net/v/t51.2885-19/344368187_204117432087681_8396211335448351561_n.jpg?_nc_cat=102&amp;_nc_map=urlgen_bucketless&amp;ccb=7-5&amp;_nc_sid=bf7eb4&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy44OTcuQzMifQ%3D%3D&amp;_nc_ohc=Izpzh12uyCgQ7kNvwHlHm2v&amp;_nc_oc=AdolYyhmatAp0eJctIKv7Ukz_NQxbkFOMkeq79Qs5Gy7FXOkiBgifz2UIAfc7xpcIWQ&amp;_nc_zt=24&amp;_nc_ht=instagram.fcgh54-1.fna&amp;_nc_ss=7f6a8&amp;oh=00_AQIOJJojoWLJKvyQ8eWY5au_X2uB7wDAHKy5QJPejl-ncg&amp;oe=6AB265F2"></div><div class="flex flex-col text-left"><span class="font-headline-sm text-[20px] md:text-headline-sm tracking-tight font-semibold text-white group-hover:text-secondary transition-colors duration-200 leading-tight">Açaí do Parque</span><span class="font-label-sm text-[11px] text-[#d8c2db] tracking-wider uppercase font-medium">Parque Fernanda - SP</span></div></a>
+<!-- Desktop Nav Links -->
+<nav class="hidden lg:flex items-center space-x-8"><a class="text-white font-bold border-b-2 border-secondary font-label-lg text-label-lg transition-colors duration-200" href="#inicio">Início</a><a class="text-[#d8c2db] hover:text-secondary font-medium font-label-lg text-label-lg transition-colors duration-200" href="#cardapio">Cardápio</a><a class="text-[#d8c2db] hover:text-secondary font-medium font-label-lg text-label-lg transition-colors duration-200" href="#acais">Açaís</a><a class="text-[#d8c2db] hover:text-secondary font-medium font-label-lg text-label-lg transition-colors duration-200" href="#lanches">Lanches</a><a class="text-[#d8c2db] hover:text-secondary font-medium font-label-lg text-label-lg transition-colors duration-200" href="#avaliacoes">Avaliações</a><a class="text-[#d8c2db] hover:text-secondary font-medium font-label-lg text-label-lg transition-colors duration-200" href="#localizacao">Localização</a></nav>
+<!-- Actions Cluster -->
+<div class="flex items-center space-x-4">
+<!-- Accessibility Reduced Motion Toggle -->
+<button aria-label="Reduzir animações" class="p-2.5 rounded-full text-[#d8c2db] hover:text-secondary hover:bg-[#281b2b] transition-colors duration-150 active:scale-95 flex items-center justify-center" id="motion-toggle" title="Alternar redução de movimento"><span class="material-symbols-outlined" data-icon="motion_photos_off">motion_photos_off</span></button>
+<!-- Primary CTA: Keeta -->
+<a class="hidden sm:inline-flex items-center gap-2 bg-primary-container text-on-primary hover:bg-black px-6 py-3 rounded-full font-label-lg text-label-lg font-semibold tracking-wide shadow-sm hover:shadow active:scale-95 transition-all duration-150" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined" data-icon="shopping_bag">shopping_bag</span><span class="">Pedir Delivery</span></a>
+<!-- Mobile Menu Toggle Button -->
+<button aria-label="Menu principal" class="lg:hidden p-2 text-white hover:text-secondary focus:outline-none" id="mobile-menu-btn"><span class="material-symbols-outlined" data-icon="menu">menu</span></button>
+</div>
+</div>
+<!-- Mobile Navigation Drawer -->
+<div class="hidden lg:hidden bg-surface-bright border-b border-surface-container px-6 py-5 shadow-lg" id="mobile-menu">
+<nav class="flex flex-col space-y-4">
+<a class="text-primary font-bold font-label-lg text-label-lg py-1" href="#inicio">Início</a>
+<a class="text-on-surface-variant hover:text-secondary font-medium font-label-lg text-label-lg py-1" href="#cardapio">Cardápio</a>
+<a class="text-on-surface-variant hover:text-secondary font-medium font-label-lg text-label-lg py-1" href="#acais">Açaís</a>
+<a class="text-on-surface-variant hover:text-secondary font-medium font-label-lg text-label-lg py-1" href="#lanches">Lanches</a>
+<a class="text-on-surface-variant hover:text-secondary font-medium font-label-lg text-label-lg py-1" href="#avaliacoes">Avaliações</a>
+<a class="text-on-surface-variant hover:text-secondary font-medium font-label-lg text-label-lg py-1" href="#localizacao">Localização</a>
+<a class="inline-flex items-center justify-center gap-2 bg-primary-container text-on-primary py-3 px-4 rounded-full font-label-lg text-label-lg mt-2" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined" data-icon="shopping_bag">shopping_bag</span><span class="">Pedir Delivery</span></a>
+</nav>
+</div>
+</header>
+<!-- 2. Hero Section (#inicio) -->
+<section class="pt-32 pb-20 md:pt-40 md:pb-28 max-w-7xl mx-auto px-6 md:px-12 relative overflow-hidden" id="inicio"><div class="absolute inset-0 z-0 pointer-events-none overflow-hidden rounded-3xl"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAHsGnyStRvtpMbh4AcGPLCkQq-luUfd2WSQ9XW-iOfgd0mUGIq42LYyoH4QOsOvNlxRlQKL0xQ7tad1deJ5S-reHEo9O4D3XlWtGKiXxGIQGu9HP9Dp3Ybd9hlxYSzGVVH4CK9yn2rssrRjrB6chzh5Hj_ZNFschayEd7--O7SqoqvAsnF9Vn2DwmiKFWyMJrA6Je0IjWnNPmfa4v4WhWkLMjvSO9zM91LHZ32ej7YvEIzTMBKcQqr4ST-SNwu8pOcNMM" alt="Açaí do Parque Taças Artesanais com Letreiro Neon" class="w-full h-full object-cover object-center transition-transform duration-500 opacity-60"><div class="absolute inset-0 bg-gradient-to-t from-[#130d14] via-transparent to-[#130d14]/90" style="background: linear-gradient(to top, rgb(19, 13, 20) 0%, transparent 50%, rgba(19, 13, 20, 0.85) 100%);"></div><div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(40,9,43,0.3)_0%,rgba(19,13,20,0.95)_100%)]" style="background: radial-gradient(circle, rgba(68, 17, 74, 0.35) 0%, rgba(19, 13, 20, 0.92) 100%);"></div></div>
+<div class="flex flex-col items-center text-center max-w-4xl mx-auto space-y-8 relative z-10"><h1 class="font-headline-lg lg:font-display-xl text-headline-lg-mobile lg:text-display-xl font-bold tracking-tight text-on-surface leading-[1.1]" style="color: rgb(245, 239, 247);"><span class="font-headline-lg lg:font-display-xl italic font-normal text-[#d8c2db]">Seu momento mais gostoso começa aqui.</span></h1><p class="font-body-lg text-body-lg text-[#d8c2db] max-w-2xl mx-auto">Açaí cremoso, complementos caprichados e lanches artesanais para matar a vontade de verdade. Uma experiência sensorial com o frescor autêntico da natureza.</p><div class="flex flex-wrap items-center justify-center gap-4 pt-2"><a class="inline-flex items-center gap-2.5 bg-primary-container text-on-primary hover:bg-black px-7 py-4 rounded-full font-label-lg text-label-lg font-semibold tracking-wide shadow-md active:scale-95 transition-all duration-150" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined" data-icon="bolt">bolt</span><span class="">Pedir Delivery</span></a><a class="inline-flex items-center gap-2 border-2 border-secondary text-secondary hover:bg-secondary hover:text-on-secondary px-7 py-3.5 rounded-full font-label-lg text-label-lg font-semibold active:scale-95 transition-all duration-150" href="#cardapio"><span class="material-symbols-outlined" data-icon="restaurant_menu">restaurant_menu</span><span class="">Ver cardápio</span></a><a class="inline-flex items-center gap-1.5 text-[#d8c2db] hover:text-secondary font-label-lg text-label-lg font-semibold px-3 py-3 transition-colors" href="https://maps.app.goo.gl/n7C8KT6sB7hVExcv5" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined" data-icon="location_on">location_on</span><span class="">Como chegar</span></a></div><div class="pt-8 border-t border-surface-container-high/70 flex flex-wrap items-center justify-center gap-8 w-full"><div class="flex items-center gap-3 text-left"><div class="w-10 h-10 rounded-full bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed"><span class="material-symbols-outlined text-[20px]" data-icon="star" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">star</span></div><div><div class="font-title-md text-title-md font-bold text-white leading-tight">4,1 / 5.0</div><div class="font-body-sm text-body-sm text-[#d8c2db]">235 avaliações no Google Maps</div></div></div><div class="h-8 w-[1px] bg-white/20 hidden sm:block"></div><div class="flex items-center gap-3 text-left"><div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed"><span class="material-symbols-outlined text-[20px]" data-icon="lunch_dining">lunch_dining</span></div><div><div class="font-title-md text-title-md font-bold text-white leading-tight">Hambúrguer Artesanal</div><div class="font-body-sm text-body-sm text-[#d8c2db]">Disponível a partir das 18h</div></div></div></div></div>
+</section>
+<!-- 3. Categorias (#categorias) -->
+<section class="border-y border-surface-container bg-surface-container-lowest py-6" id="categorias" style="background-color: rgb(22, 14, 24); border-color: rgba(255, 255, 255, 0.08);">
+<div class="max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row md:items-center justify-between gap-6">
+<!-- Filter Chips -->
+<div class="flex items-center gap-2.5 overflow-x-auto pb-2 md:pb-0 scrollbar-none" id="categories-filter-bar"><button class="px-5 py-2.5 rounded-full font-label-lg text-label-lg font-bold bg-secondary text-white shadow-sm transition-all" data-category="acais">Açaís</button><button class="px-5 py-2.5 rounded-full font-label-lg text-label-lg font-medium bg-[#281b2b] text-[#f5eff7] hover:bg-[#342438] transition-all" data-category="complementos">Complementos</button><button class="px-5 py-2.5 rounded-full font-label-lg text-label-lg font-medium bg-[#281b2b] text-[#f5eff7] hover:bg-[#342438] transition-all" data-category="hamburgueres">Hambúrgueres</button><button class="px-5 py-2.5 rounded-full font-label-lg text-label-lg font-medium bg-[#281b2b] text-[#f5eff7] hover:bg-[#342438] transition-all" data-category="combos">Combos</button><button class="px-5 py-2.5 rounded-full font-label-lg text-label-lg font-medium bg-[#281b2b] text-[#f5eff7] hover:bg-[#342438] transition-all" data-category="bebidas">Bebidas</button></div>
+<!-- Informative Sub-badge -->
+<div class="flex items-center gap-2 text-[#d8c2db] font-label-sm text-label-sm"><span class="material-symbols-outlined text-secondary text-[18px]" data-icon="verified">verified</span><span class="">Ingredientes frescos e porções fartas preparadas na hora</span></div>
+</div>
+</section>
+<!-- 4. Cardápio Editorial (#cardapio, #acais, #lanches) -->
+<section class="py-24 max-w-7xl mx-auto px-6 md:px-12" id="cardapio"><div class="text-center max-w-2xl mx-auto mb-10"><span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">CARDÁPIO OFICIAL KEETA</span><h2 class="font-headline-lg text-headline-lg md:text-headline-lg font-bold text-white mt-2 mb-4">Cardápio de Criações &amp; Clássicos</h2><p class="font-body-md text-body-md text-[#d8c2db]">Receitas originais estruturadas com açaí puro, cortes frescos de frutas diárias e blends suculentos na chapa quente.</p></div><div class="flex items-center gap-2 overflow-x-auto pb-4 mb-10 scrollbar-none justify-start lg:justify-center flex-nowrap md:flex-wrap" id="menu-category-tabs"><button type="button" class="menu-filter-btn bg-secondary text-white px-4 py-2 rounded-full font-semibold text-xs transition-all whitespace-nowrap active:scale-95 shadow-sm" data-filter="all">Todos os Produtos (33)</button><button type="button" class="menu-filter-btn bg-[#281b2b] hover:bg-[#342438] text-white px-4 py-2 rounded-full text-xs transition-all whitespace-nowrap font-medium" data-filter="acais">Açaís &amp; Taças (13)</button><button type="button" class="menu-filter-btn bg-[#281b2b] hover:bg-[#342438] text-white px-4 py-2 rounded-full text-xs transition-all whitespace-nowrap font-medium" data-filter="hamburgueres">Hambúrgueres Artesanais (7)</button><button type="button" class="menu-filter-btn bg-[#281b2b] hover:bg-[#342438] text-white px-4 py-2 rounded-full text-xs transition-all whitespace-nowrap font-medium" data-filter="smash">Linha Smash (4)</button><button type="button" class="menu-filter-btn bg-[#281b2b] hover:bg-[#342438] text-white px-4 py-2 rounded-full text-xs transition-all whitespace-nowrap font-medium" data-filter="hotdogs">Hot Dogs (2)</button><button type="button" class="menu-filter-btn bg-[#281b2b] hover:bg-[#342438] text-white px-4 py-2 rounded-full text-xs transition-all whitespace-nowrap font-medium" data-filter="entradas">Entradas &amp; Acompanhamentos (3)</button><button type="button" class="menu-filter-btn bg-[#281b2b] hover:bg-[#342438] text-white px-4 py-2 rounded-full text-xs transition-all whitespace-nowrap font-medium" data-filter="combos">Combos (2)</button><button type="button" class="menu-filter-btn bg-[#281b2b] hover:bg-[#342438] text-white px-4 py-2 rounded-full text-xs transition-all whitespace-nowrap font-medium" data-filter="churros">Churros &amp; Sobremesas (4)</button><button type="button" class="menu-filter-btn bg-[#281b2b] hover:bg-[#342438] text-white px-4 py-2 rounded-full text-xs transition-all whitespace-nowrap font-medium" data-filter="bebidas">Bebidas (3)</button></div><div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6" id="menu-grid-container"><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="acais" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Monte o seu Açaí" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785424569378-68b07041-c01c-4ed6-9095-b06b27115121.png?x-s3-process=image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Personalizável</span><span class="text-[11px] text-[#d8c2db]">Preço sob consulta</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Monte o seu Açaí</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="acais" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Jd. Irene (frutas, granola, leite em pó)" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785250491848-b0e9c1d8-c405-4293-86d2-e69ca9ab23aa.png?x-s3-process=image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Especial da Casa</span><span class="text-[11px] text-[#d8c2db]">Preço sob consulta</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Jd. Irene (frutas, granola, leite em pó)</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="acais" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="AÇAÍ/CUPUAÇU DE QUEBRADA" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785250280102-c0b208a1-ca19-431b-81f7-816890af69be.png?x-s3-process=image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Açaí &amp; Cupuaçu</span><span class="text-[11px] text-[#d8c2db]">Preço sob consulta</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">AÇAÍ/CUPUAÇU DE QUEBRADA</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="acais" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Pq. Santo Antonio - Nutella C/ Fruta" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785249723018-dce75bb5-5e9f-441c-a3ec-19fc3fd3567c.png?x-s3-process=image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Nutella &amp; Frutas</span><span class="text-[11px] text-[#d8c2db]">Preço sob consulta</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Pq. Santo Antonio - Nutella C/ Fruta</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="acais" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Pq. Fernanda - Nutella c/ Amendoim" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785249317920-ea2bf27a-649b-4ef7-be73-b98e6dace58c.png?x-s3-process=image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Nutella &amp; Amendoim</span><span class="text-[11px] text-[#d8c2db]">Preço sob consulta</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Pq. Fernanda - Nutella c/ Amendoim</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="acais" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Jd. Dom José - Ovomaltine" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785247815520-80f45e92-ee7d-46bc-9112-e9a0e20eacdd.png?x-s3-process=image/resize,m_mfit,w_180,image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Ovomaltine</span><span class="text-[11px] text-[#d8c2db]">Preço sob consulta</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Jd. Dom José - Ovomaltine</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="acais" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Vale Velho - Oreo" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785247848629-e555b856-cc92-4e1d-8b62-8021bd63962e.png?x-s3-process=image/resize,m_mfit,w_180,image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Oreo Crocante</span><span class="text-[11px] text-[#d8c2db]">Preço sob consulta</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Vale Velho - Oreo</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="acais" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Jardim das Rosas - Kit Kat" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785249216838-65710da0-d301-445c-a148-1cd789b5ce47.png?x-s3-process=image/resize,m_mfit,w_180,image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Kit Kat</span><span class="text-[11px] text-[#d8c2db]">Preço sob consulta</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Jardim das Rosas - Kit Kat</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="acais" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Pq. Independencia - Chocoball c/ Laka" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785249384565-2ed8c9e2-94a8-4422-b48e-e90c9e2fcfff.png?x-s3-process=image/resize,m_mfit,w_180,image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Chocoball &amp; Laka</span><span class="text-[11px] text-[#d8c2db]">Preço sob consulta</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Pq. Independencia - Chocoball c/ Laka</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="acais" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Santo Eduardo - M&amp;M" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785249601531-50f4f1db-8fd4-4fd7-b364-ae17b9f0dc2b.png?x-s3-process=image/resize,m_mfit,w_180,image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">M&amp;M</span><span class="text-[11px] text-[#d8c2db]">Preço sob consulta</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Santo Eduardo - M&amp;M</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="acais" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Jd. Mitsutani - Paçoca" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785249660228-90abd287-c26d-4e69-82da-dc2e6c0e8389.png?x-s3-process=image/resize,m_mfit,w_180,image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Paçoca</span><span class="text-[11px] text-[#d8c2db]">Preço sob consulta</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Jd. Mitsutani - Paçoca</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="acais" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Capão City - O LUXO" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785249779007-bb4356dd-0987-4484-88fd-245a6678192e.png?x-s3-process=image/resize,m_mfit,w_180,image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-amber-400 uppercase tracking-wider">Consumo no Local</span><span class="text-[11px] text-[#d8c2db]">Preço sob consulta</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Capão City - O LUXO (INDISPONÍVEL P/ VIAGEM)</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="acais" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Cohab - Doce de leite" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785249924672-5002fb48-58ba-4354-810c-8c2d1b19cddb.png?x-s3-process=image/resize,m_mfit,w_180,image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Doce de Leite</span><span class="text-[11px] text-[#d8c2db]">Preço sob consulta</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Cohab - Doce de leite</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="hamburgueres" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Da ponte pra cá" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785629705566-420ee9be-d76d-44d4-b737-d595cf61214b.png?x-s3-process=image/resize,m_mfit,w_180,image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Blend Artesanal</span><span class="text-[11px] text-[#d8c2db]">A partir das 18h</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Da ponte pra cá</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="hamburgueres" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Vila Fundão" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785631154514-a39b1bee-9f84-4405-a1fd-a1de62ffde5a.png?x-s3-process=image/resize,m_mfit,w_180,image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Clássico da Casa</span><span class="text-[11px] text-[#d8c2db]">A partir das 18h</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Vila Fundão</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="hamburgueres" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Morro do S" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785631377877-e03bcb11-fee9-42b7-a2f6-07204401e5aa.png?x-s3-process=image/resize,m_mfit,w_180,image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Receita Especial</span><span class="text-[11px] text-[#d8c2db]">A partir das 18h</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Morro do S</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="hamburgueres" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Do Parque" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785631722960-597eee54-e0ec-4f1d-9ca3-be92e7144ac2.png?x-s3-process=image/resize,m_mfit,w_180,image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">O Mais Pedido</span><span class="text-[11px] text-[#d8c2db]">A partir das 18h</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Do Parque</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="hamburgueres" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="De quebas" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785632566697-53a38dd4-f978-4ee3-8ceb-a68df64e74f4.png?x-s3-process=image/resize,m_mfit,w_180,image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Queijo Derretido</span><span class="text-[11px] text-[#d8c2db]">A partir das 18h</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">De quebas</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="hamburgueres" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Capelinha" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785632844863-cdd08005-2c97-45b6-bee2-379ef2945ca3.png?x-s3-process=image/resize,m_mfit,w_180,image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Caprichado</span><span class="text-[11px] text-[#d8c2db]">A partir das 18h</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Capelinha</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="hamburgueres" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Itapecerica" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785633125846-e1a5a8a0-0f3a-4c7a-8baa-9e83fe3f4f54.png?x-s3-process=image/resize,m_mfit,w_180,image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Burger Especial</span><span class="text-[11px] text-[#d8c2db]">A partir das 18h</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Itapecerica</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="smash" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Smash" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1786728952217-2572cb25-bf75-48de-850e-6388068e68f5.png?x-s3-process=image/resize,m_mfit,w_180,image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Smash Simples</span><span class="text-[11px] text-[#d8c2db]">Linha Smash</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Smash</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="smash" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Smash duplo" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1786729259082-06b2693e-3f1b-4719-b274-653e27b2b9d4.png?x-s3-process=image/resize,m_mfit,w_180,image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Double Burger</span><span class="text-[11px] text-[#d8c2db]">Linha Smash</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Smash duplo</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="smash" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Smash bacon" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1786729337719-a686c736-6820-412a-92e0-baecfc6c4ff6.png?x-s3-process=image/resize,m_mfit,w_180,image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Crocante c/ Bacon</span><span class="text-[11px] text-[#d8c2db]">Linha Smash</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Smash bacon</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="smash" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Smash duplo bacon" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1786729408720-85e4581d-538c-42f4-bf9c-3a31304b43c8.png?x-s3-process=image/resize,m_mfit,w_180,image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Duplo &amp; Bacon</span><span class="text-[11px] text-[#d8c2db]">Linha Smash</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Smash duplo bacon</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="hotdogs" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Hot Dog Simples" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785255061835-1d1a6684-3b56-4539-a145-93b04dd03860.png?x-s3-process=image/resize,m_mfit,w_180,image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Tradicional</span><span class="text-[11px] text-[#d8c2db]">Hot Dogs</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Hot Dog Simples</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="hotdogs" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Hot Dog Completo" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785255243359-f0afcead-54c5-4a7d-a889-7efaf8c174ca.png?x-s3-process=image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Completo</span><span class="text-[11px] text-[#d8c2db]">Hot Dogs</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Hot Dog Completo</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="entradas" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Batata Frita" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785255396139-605db183-4ebc-43b8-92ec-8b511c4ef17f.png?x-s3-process=image/resize,m_mfit,w_180,image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Porção Individual</span><span class="text-[11px] text-[#d8c2db]">Entradas</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Batata Frita</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="entradas" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Batata frita, molho cheddar e bacon" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785255628235-feeb4645-22c6-40ac-b16f-549cbaabf2eb.png?x-s3-process=image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Cheddar &amp; Bacon</span><span class="text-[11px] text-[#d8c2db]">Entradas</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Batata frita, molho cheddar e bacon</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="entradas" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Nuggets" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785255555425-9dea3ac4-74da-4464-be75-f43d19d6ddbb.png?x-s3-process=image/resize,m_mfit,w_180,image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Crocantes</span><span class="text-[11px] text-[#d8c2db]">Entradas</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Nuggets</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="combos" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Combo Adulto" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785255717218-d56176ee-0323-4731-9738-96f68cdd072d.png?x-s3-process=image/resize,m_mfit,w_180,image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Completo</span><span class="text-[11px] text-[#d8c2db]">Combos</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Combo Adulto</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="combos" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="VILA FUNDÃO + REFRIGERANTE 200ML" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1789332755326-46f6613e-abdb-450c-9dc3-991f6a9be4a1.png?x-s3-process=image/resize,m_mfit,w_180,image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Burger + Refri</span><span class="text-[11px] text-[#d8c2db]">Combos</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">VILA FUNDÃO + REFRIGERANTE 200ML</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="churros" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Fondue para Duas Pessoas" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-8aeABxG0uXqvRAyiu8cJ5vDOyBFJSOZi3vrEiWrPn0gUmN9UBtxBPG4afr39eisNZy0H2_9rQ6wyXoGdqBB2xuLaD_fq0tAj4tvmBhHOv5jaMik9Tfz6FIbQH2NLjrh9Y7wpOLdCeqjzBm5wvulZq6qIzqT9Fuw0dJk0IDrGwAJKRT_BVpOJs-fzfEzH4M_FzAUbMRW8WNPs5Ds2bUhzwFcdFa6BAzYT1TdiC8hBUbpY5g7AgcEvPMsGWg3swbeWnWQ"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Especial Compartilhar</span><span class="text-white font-bold text-sm">R$ 49,99</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Fondue para Duas Pessoas</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="churros" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Churros Espanhois" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785258023908-6611cd89-2e26-483b-b60f-a4aee51ef239.png?x-s3-process=image/resize,m_mfit,w_180,image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Doce Artesanal</span><span class="text-[11px] text-[#d8c2db]">Churros</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Churros Espanhois</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="churros" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Churros Espanhóis" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785258264506-7c87677d-cc8f-4f1f-a2b0-251ad61579f9.png?x-s3-process=image/resize,m_mfit,w_180,image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Quentinho &amp; Crocante</span><span class="text-[11px] text-[#d8c2db]">Churros</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Churros Espanhóis­</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="churros" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Copo de Sorvete Mirim 250ML" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785257539108-2e1df4d5-588c-4fb1-8ed0-c2ea42d0c981.png?x-s3-process=image/resize,m_mfit,w_180,image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Sobremesa Gelada</span><span class="text-[11px] text-[#d8c2db]">Sorvetes</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Copo de Sorvete Mirim 250ML</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="bebidas" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Coca-Cola Original 350ml" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785256129431-7b2fba84-5570-4398-b24e-a5e0888f45e5.png?x-s3-process=image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Lata 350ml</span><span class="text-[11px] text-[#d8c2db]">Bebidas</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Coca-Cola Original 350ml</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="bebidas" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Refrigerante Fanta 350ml" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785256151408-8de9de7e-35e0-420e-88bd-d169226c4ba6.png?x-s3-process=image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Lata 350ml</span><span class="text-[11px] text-[#d8c2db]">Bebidas</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Refrigerante Fanta 350ml</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div><div class="menu-item-card rounded-2xl p-4 flex flex-col justify-between shadow-lg transition-all group border border-[#362539] hover:border-secondary/60 h-full" data-category="bebidas" style="background-color: rgb(30, 22, 32);"><div><div class="w-full h-44 rounded-xl overflow-hidden mb-3 bg-[#281b2b]"><img alt="Refrigerante Guaraná Antarctica Lata 350ml" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785256175454-1732c45c-8583-401b-9108-0b708fd595c9.png?x-s3-process=image/resize,m_mfit,w_180,image/format,webp"></div><div class="flex items-center justify-between gap-2 mt-2"><span class="text-[11px] font-bold text-secondary uppercase tracking-wider">Lata 350ml</span><span class="text-[11px] text-[#d8c2db]">Bebidas</span></div><h4 class="text-white font-semibold text-[16px] leading-snug line-clamp-2 mt-1">Refrigerante Guaraná Antarctica Lata 350ml</h4></div><a class="bg-secondary hover:bg-secondary/90 text-white text-xs font-semibold py-2.5 px-4 rounded-xl flex items-center justify-center gap-1.5 transition-colors mt-4 text-center active:scale-95 w-full" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">shopping_bag</span><span class="">Pedir Delivery</span></a></div></div><script>
+(function() {
+  const filterBtns = document.querySelectorAll('.menu-filter-btn');
+  const cards = document.querySelectorAll('.menu-item-card');
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const filter = btn.getAttribute('data-filter');
+      filterBtns.forEach(b => {
+        b.classList.remove('bg-secondary', 'font-semibold', 'shadow-sm');
+        b.classList.add('bg-[#281b2b]', 'font-medium');
+      });
+      btn.classList.add('bg-secondary', 'font-semibold', 'shadow-sm');
+      btn.classList.remove('bg-[#281b2b]', 'font-medium');
+      cards.forEach(card => {
+        if (filter === 'all' || card.getAttribute('data-category') === filter) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+})();
+</script></section>
+<!-- 5. Seção de Destaque de Produto (Experiência Sensorial Close-Up) -->
+<section class="w-full text-surface-bright py-24 md:py-32 relative overflow-hidden bg-cover bg-no-repeat" style="background-image: linear-gradient(to right, rgba(31, 6, 34, 0.96) 0%, rgba(45, 9, 50, 0.9) 50%, rgba(31, 6, 34, 0.6) 100%), url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuB14Ms7Di9PDRkVVHtg9jAoyVoXj_JZV68R9cX_-L_51Lr6CFOFKyA8iuqhaK3lio9xSWqeGfyNMmQE3_a3dSZvLhgBEMZ62WgYdC501tgctBj1iW8h9r9ze1TlCvMQvkWqvsJDcUrU9xOnUWYVd1RG0_gGIihyxnJz9-OfbFpwo3OJlNRVuYMTq5NokSZ1hOYXejsI6CdHxJJKhX4rGpkEw1hLRWdYLwvBOiA7f7z1XdQhVI332gJJIgKvx2iMhzwhsbM&quot;); background-position: right center;"><div class="max-w-7xl mx-auto px-6 md:px-12 relative z-10"><div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center"><div class="lg:col-span-7 space-y-6"><div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md text-inverse-primary font-label-sm text-label-sm uppercase font-semibold border border-white/10"><span class="material-symbols-outlined text-[16px] text-amber-400" data-icon="star">star</span><span class="">Sensação de Pura Textura</span></div><h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg font-bold text-white leading-tight drop-shadow-md">Açaí puro com textura aveludada e consistência incomparável.</h2><p class="font-body-lg text-body-lg text-white/90 max-w-2xl leading-relaxed">No Açaí do Parque, repudiamos açaís aguados ou com cristais de gelo. Nossa base é processada artesanalmente em temperatura precisa para manter a cor violeta densa, o perfume floral da fruta e a máxima cremosidade na colherada.</p><ul class="space-y-4 pt-2"><li class="flex items-center gap-3"><span class="w-6 h-6 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center font-bold text-xs shrink-0">✓</span><span class="font-body-md text-body-md text-white/95">Sem aromatizantes artificiais e com doçura equilibrada</span></li><li class="flex items-center gap-3"><span class="w-6 h-6 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center font-bold text-xs shrink-0">✓</span><span class="font-body-md text-body-md text-white/95">Complementos de marcas de primeira linha, sempre crocantes</span></li><li class="flex items-center gap-3"><span class="w-6 h-6 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center font-bold text-xs shrink-0">✓</span><span class="font-body-md text-body-md text-white/95">Embalagens térmicas vedadas para delivery perfeito no Keeta</span></li></ul><div class="pt-4 flex flex-wrap items-center gap-4"><a class="inline-flex items-center gap-3 bg-white text-primary hover:bg-surface-bright px-8 py-4 rounded-full font-label-lg text-label-lg font-bold shadow-lg transition-all active:scale-95" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined" data-icon="restaurant">restaurant</span><span class="">Pedir Delivery</span></a></div></div></div></div></section>
+<!-- 6. Seção de Vídeos / Reels da Marca (#videos) -->
+<section class="py-24 max-w-7xl mx-auto px-6 md:px-12" id="experiencia">
+  <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+    <div>
+      <span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Experiência &amp; Escolha</span>
+      <h2 class="font-headline-lg text-headline-lg font-bold text-on-surface mt-1" style="color: rgb(245, 239, 247);">
+        Monte do Seu Jeito no Parque
+      </h2>
+      <p class="font-body-md text-body-md text-[#d8c2db] mt-2 max-w-2xl">
+        O ritual de montar a sua tigela ou copo perfeito: açaí nativo batido com densidade aveludada, fruta fresca selecionada e coberturas generosas em camadas equilibradas.
+      </p>
+    </div>
+    <div class="px-4 py-2 rounded-xl bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold flex items-center gap-2 shrink-0">
+      <span class="material-symbols-outlined text-[18px]" data-icon="counter_1">counter_1</span>
+      <span class="">4 Passos para a Colherada Perfeita</span>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+    <div class="rounded-3xl p-6 border flex flex-col justify-between shadow-[0_4px_20px_-2px_rgba(40,9,43,0.04)] hover:shadow-[0_12px_32px_-4px_rgba(40,9,43,0.08)] transition-all group relative overflow-hidden" style="background-color: rgb(30, 22, 32); border-color: rgb(54, 37, 57);">
+      <div class="w-full h-44 rounded-2xl overflow-hidden mb-5 relative bg-[#281b2b]">
+        <img alt="Escolha o Tamanho &amp; Base" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmitgjDvhBrs9x3QrtA9EdaGcKwEh-tcP5YgGAb7RM_8rzmSmuPzocv5CLUolX0GQgrm92XFDNkyvPgQ3ekBFJ-K7MoHHdItTyn4QIHOpfiJhovrGADcMXz-8NgvMIcE_LXpiGE=w215-h280-p-k-no">
+        <span class="absolute top-3 left-3 bg-secondary text-white text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Passo 01</span>
+      </div>
+      <div>
+        <span class="font-label-sm text-label-sm font-semibold text-secondary uppercase block mb-1">Base Puro Açaí</span>
+        <h3 class="font-headline-sm text-headline-sm font-bold text-[#f5eff7] mb-2">1. Tamanho &amp; Ponto</h3>
+        <p class="font-body-sm text-body-sm text-[#d8c2db] leading-relaxed">
+          Selecione 300ml, 500ml, 700ml ou Barca Família. Açaí batido na temperatura certa, cremoso e sem cristais de gelo.
+        </p>
+      </div>
+      <div class="pt-4 mt-4 border-t border-[#362539] flex items-center justify-between text-xs text-[#b59ebb]">
+        <span class="">Tamanhos variados</span>
+        <span class="font-semibold text-white">Puro ou mesclado</span>
+      </div>
+    </div>
+
+    <div class="rounded-3xl p-6 border flex flex-col justify-between shadow-[0_4px_20px_-2px_rgba(40,9,43,0.04)] hover:shadow-[0_12px_32px_-4px_rgba(40,9,43,0.08)] transition-all group relative overflow-hidden" style="background-color: rgb(30, 22, 32); border-color: rgb(54, 37, 57);">
+      <div class="w-full h-44 rounded-2xl overflow-hidden mb-5 relative bg-[#281b2b]">
+        <img alt="Camadas de Frutas Frescas" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlQ34fkcN93cWIyju4vQEHWaoXVwFI3VBKZdMRjq01GKfyetg3uS0y6s6eH0oBTKDLQpU2v4EttNdB5_b_fV1HmdQ0AB01GeEXvXnq0rt_5XvAUtGd3ywifpVw9FsnzRMbnwndLaQ=s508-k-no">
+        <span class="absolute top-3 left-3 bg-secondary text-white text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Passo 02</span>
+      </div>
+      <div>
+        <span class="font-label-sm text-label-sm font-semibold text-secondary uppercase block mb-1">Frescor Diário</span>
+        <h3 class="font-headline-sm text-headline-sm font-bold text-[#f5eff7] mb-2">2. Frutas Naturais</h3>
+        <p class="font-body-sm text-body-sm text-[#d8c2db] leading-relaxed">
+          Morangos maduros fatiados na hora do pedido, rodelas de banana frescas e o toque azedinho da polpa pura de maracujá.
+        </p>
+      </div>
+      <div class="pt-4 mt-4 border-t border-[#362539] flex items-center justify-between text-xs text-[#b59ebb]">
+        <span class="">Corte diário</span>
+        <span class="font-semibold text-white">Frescor garantido</span>
+      </div>
+    </div>
+
+    <div class="rounded-3xl p-6 border flex flex-col justify-between shadow-[0_4px_20px_-2px_rgba(40,9,43,0.04)] hover:shadow-[0_12px_32px_-4px_rgba(40,9,43,0.08)] transition-all group relative overflow-hidden" style="background-color: rgb(30, 22, 32); border-color: rgb(54, 37, 57);">
+      <div class="w-full h-44 rounded-2xl overflow-hidden mb-5 relative bg-[#281b2b]">
+        <img alt="Coberturas &amp; Cremes Artesanais" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlOCRVgIskCR0sjVw4hkbhMFLQ_JladDHogA3jSysY6vBjJcHOzcYmMbwGpLR_M9Z7Xt0bf2l4pLBioO2Lcv-hOX-1SCURz4n6BqXUd07bvMefFqA2iw8QTqXEOBDGMZ6WiFZM=w215-h280-p-k-no">
+        <span class="absolute top-3 left-3 bg-secondary text-white text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Passo 03</span>
+      </div>
+      <div>
+        <span class="font-label-sm text-label-sm font-semibold text-secondary uppercase block mb-1">Cremosos &amp; Caldas</span>
+        <h3 class="font-headline-sm text-headline-sm font-bold text-[#f5eff7] mb-2">3. Cremes Artesanais</h3>
+        <p class="font-body-sm text-body-sm text-[#d8c2db] leading-relaxed">
+          Leite Ninho em camadas fartas, creme de avelã aveludado, calda quente trufada ou doce de leite cremoso artesanal.
+        </p>
+      </div>
+      <div class="pt-4 mt-4 border-t border-[#362539] flex items-center justify-between text-xs text-[#b59ebb]">
+        <span class="">Marcas nobres</span>
+        <span class="font-semibold text-white">Textura suave</span>
+      </div>
+    </div>
+
+    <div class="rounded-3xl p-6 border flex flex-col justify-between shadow-[0_4px_20px_-2px_rgba(40,9,43,0.04)] hover:shadow-[0_12px_32px_-4px_rgba(40,9,43,0.08)] transition-all group relative overflow-hidden" style="background-color: rgb(30, 22, 32); border-color: rgb(54, 37, 57);">
+      <div class="w-full h-44 rounded-2xl overflow-hidden mb-5 relative bg-[#281b2b]">
+        <img alt="Finalização Crocante" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk7K_Dqa210zctZyIPz5B0VhqITS3KLwu9LzEslLMQ9HYhjjrDujzCvGuRY6StDnG0yiUrryxa_nerDpPNU-uE0MnZUkcm4i9RE7-l9i-8y0QDo0312SYxjfn9nY69z9dPLmMDO0Q=w215-h280-p-k-no">
+        <span class="absolute top-3 left-3 bg-secondary text-white text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Passo 04</span>
+      </div>
+      <div>
+        <span class="font-label-sm text-label-sm font-semibold text-secondary uppercase block mb-1">Crocância Perfeita</span>
+        <h3 class="font-headline-sm text-headline-sm font-bold text-[#f5eff7] mb-2">4. Toppings Crocantes</h3>
+        <p class="font-body-sm text-body-sm text-[#d8c2db] leading-relaxed">
+          Granola crocante tradicional da casa, amendoim torrado moído, fatias de chocolate Snickers e pedaços de biscoito.
+        </p>
+      </div>
+      <div class="pt-4 mt-4 border-t border-[#362539] flex items-center justify-between text-xs text-[#b59ebb]">
+        <span class="">Sempre fresquinho</span>
+        <span class="font-semibold text-white">Crocante até o fim</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="p-8 md:p-10 rounded-3xl border flex flex-col lg:flex-row items-center justify-between gap-6 relative overflow-hidden shadow-xl" style="background: linear-gradient(135deg, rgb(38, 22, 40) 0%, rgb(28, 17, 30) 100%); border-color: rgb(64, 43, 68);">
+    <div class="space-y-2 max-w-2xl text-center lg:text-left">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary text-white font-label-sm text-label-sm uppercase tracking-wider font-semibold">
+        <span class="material-symbols-outlined text-[16px]" data-icon="touch_app">touch_app</span>
+        <span class="">Monte em Segundos</span>
+      </div>
+      <h3 class="font-headline-sm md:text-headline-md font-bold text-white leading-tight">
+        Peça personalizado direto pelo Keeta ou monte no balcão da loja
+      </h3>
+      <p class="font-body-md text-body-md text-[#d8c2db]">
+        Seja para entrega rápida e bem embalada na sua casa ou para saborear no nosso salão no Parque Fernanda.
+      </p>
+    </div>
+    <div class="flex flex-wrap items-center justify-center gap-4 shrink-0">
+      <a class="inline-flex items-center gap-2.5 bg-primary-container text-on-primary hover:bg-black px-7 py-3.5 rounded-full font-label-lg text-label-lg font-semibold tracking-wide shadow-md active:scale-95 transition-all duration-150" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined" data-icon="shopping_bag">shopping_bag</span><span class="">Pedir Delivery</span></a>
+      <a class="inline-flex items-center gap-2 border-2 border-secondary text-secondary hover:bg-secondary hover:text-on-secondary px-7 py-3 rounded-full font-label-lg text-label-lg font-semibold active:scale-95 transition-all duration-150" href="#localizacao">
+        <span class="material-symbols-outlined" data-icon="storefront">storefront</span>
+        <span class="">Visitar Loja Física</span>
+      </a>
+    </div>
+  </div>
+</section>
+<!-- 7. Prova Social e Avaliações Reais do Google Maps (#avaliacoes) -->
+<section class="py-24 bg-surface-container-low border-y border-surface-container" id="avaliacoes" style="background-color: rgb(19, 13, 20); border-color: rgba(255, 255, 255, 0.08);">
+<div class="max-w-7xl mx-auto px-6 md:px-12">
+<!-- Summary Header -->
+<div class="bg-surface-container-lowest rounded-3xl p-8 md:p-12 border border-outline-variant/30 shadow-[0_4px_20px_-2px_rgba(40,9,43,0.04)] mb-12 flex flex-col lg:flex-row items-center justify-between gap-8" style="background-color: rgb(30, 22, 32); border-color: rgba(255, 255, 255, 0.08);">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Avaliações Verificadas</span>
+<h2 class="font-headline-lg text-headline-lg font-bold text-white mt-1">O que a comunidade diz sobre nós</h2>
+<p class="font-body-md text-body-md text-[#d8c2db] mt-2 max-w-xl">Transparência e respeito a cada cliente. Veja relatos reais extraídos diretamente do nosso perfil no Google Maps.</p>
+</div>
+<div class="flex flex-col sm:flex-row items-center gap-6">
+<div class="text-center sm:text-right">
+<div class="flex items-center justify-center sm:justify-end gap-1.5 text-on-tertiary-container mb-1">
+<span class="material-symbols-outlined text-[24px]" data-icon="star" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[24px]" data-icon="star" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[24px]" data-icon="star" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[24px]" data-icon="star" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[24px]" data-icon="star_half" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">star_half</span>
+</div>
+<div class="font-headline-sm text-headline-sm font-bold text-white">4,1 de 5.0 estrelas</div>
+<div class="font-body-sm text-body-sm text-[#d8c2db]">235 avaliações no Google Maps</div>
+</div>
+<a class="px-6 py-3.5 rounded-full bg-primary-container text-on-primary hover:bg-black font-label-lg text-label-lg font-semibold shadow-sm active:scale-95 transition-all text-center" href="https://maps.app.goo.gl/n7C8KT6sB7hVExcv5" rel="noopener noreferrer" target="_blank">
+            Ver todas as 235 avaliações
+          </a>
+</div>
+</div>
+<!-- Real Literal Reviews Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Review 1: Ana Carolina -->
+<div class="bg-surface-container-lowest p-8 rounded-3xl border border-outline-variant/30 flex flex-col justify-between shadow-[0_4px_20px_-2px_rgba(40,9,43,0.04)]" style="background-color: rgb(30, 22, 32); border-color: rgba(255, 255, 255, 0.08);"><div class=""><div class="flex items-center justify-between mb-4"><div class="flex text-on-tertiary-container"><span class="material-symbols-outlined text-[18px] text-amber-400" data-icon="star" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">star</span><span class="material-symbols-outlined text-[18px] text-amber-400" data-icon="star" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">star</span><span class="material-symbols-outlined text-[18px] text-amber-400" data-icon="star" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">star</span><span class="material-symbols-outlined text-[18px] text-amber-400" data-icon="star" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">star</span><span class="material-symbols-outlined text-[18px] text-amber-400" data-icon="star" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">star</span></div><span class="font-label-sm text-label-sm text-[#d8c2db]">5 estrelas</span></div><p class="font-body-md text-body-md text-[#f5eff7] mb-5 italic">"Atendimento excelente!! Fui no período da noite, um lanche impecável, realmente não é só marketing. Me impressionei."</p><div class="mb-5 p-2.5 rounded-2xl bg-[#281b2b] border border-[#362539] flex items-center gap-3"><img alt="Foto enviada por Ana Carolina" class="w-14 h-14 rounded-xl object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4uN07HRmFuDDARPkCulGYcmgV7oOMcrLvfQmTy6caHTx8G48NWKLvhcKg6aHyhgaW-b25nJsptRTONi-ZANXIGOnbw58q-7lsyQRHsvxuyITZCJzyMM8BbsXlAbyb6O_PO0TRbMlgzf9wPNOa3mIpyex_nPrwJewgRvoShkwr22zTSTCl1pr6hSlyuSkFEDuHp3a41jE1RBd32iO8O--RX8lIVebSlpOqyofU9vUAiyWf6MwUnVGfdg"><div><span class="font-label-sm text-label-sm font-semibold text-secondary block">Foto enviada por Ana Carolina</span><span class="font-body-sm text-body-sm text-[#d8c2db]">Lanche servido na visita noturna</span></div></div></div><div class="pt-4 border-t border-[#362539] flex items-center justify-between"><div><div class="font-title-md text-title-md font-bold text-[#f5eff7]">Ana Carolina</div><div class="font-label-sm text-label-sm text-secondary font-medium">Local Guide · 12 fotos</div></div><span class="material-symbols-outlined text-secondary" data-icon="verified_user">verified_user</span></div></div>
+<!-- Review 2: Claudia Tatiane -->
+<div class="bg-surface-container-lowest p-8 rounded-3xl border border-outline-variant/30 flex flex-col justify-between shadow-[0_4px_20px_-2px_rgba(40,9,43,0.04)]" style="background-color: rgb(30, 22, 32); border-color: rgba(255, 255, 255, 0.08);"><div class=""><div class="flex items-center justify-between mb-4"><div class="flex text-on-tertiary-container"><span class="material-symbols-outlined text-[18px] text-amber-400" data-icon="star" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">star</span><span class="material-symbols-outlined text-[18px] text-amber-400" data-icon="star" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">star</span><span class="material-symbols-outlined text-[18px] text-amber-400" data-icon="star" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">star</span><span class="material-symbols-outlined text-[18px] text-amber-400" data-icon="star" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">star</span><span class="material-symbols-outlined text-[18px] text-surface-container-highest" data-icon="star">star</span></div><span class="font-label-sm text-label-sm text-[#d8c2db]">4 estrelas</span></div><p class="font-body-md text-body-md text-[#f5eff7] mb-5 italic">"Um lugar bonitinho, mas o atendimento não foi bom. Meu pedido demorou muito e houve erro no pedido."</p><div class="mb-5 p-2.5 rounded-2xl bg-[#281b2b] border border-[#362539] flex items-center gap-3"><img alt="Foto enviada por Claudia Tatiane" class="w-14 h-14 rounded-xl object-cover" src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnsmnuXzK6u9KunEsu_GeIsPwj37S8T_BNBYflnCoiK_SNaxUJeii1x6BPRRhLqxvSIFVopRVD_d32Gk1rOZd3IN7JS7hdOq2eFbyWOGP0TIJQ_fbLpA82cJUtxOMf_8IlwcxUz=s677-k-no"><div><span class="font-label-sm text-label-sm font-semibold text-secondary block">Foto enviada por Claudia Tatiane</span><span class="font-body-sm text-body-sm text-[#d8c2db]">Ambiente registrado no local</span></div></div></div><div class="pt-4 border-t border-[#362539] flex items-center justify-between"><div><div class="font-title-md text-title-md font-bold text-[#f5eff7]">Claudia Tatiane</div><div class="font-label-sm text-label-sm text-[#d8c2db] font-medium">Cliente verificada</div></div><span class="material-symbols-outlined text-secondary" data-icon="verified">verified</span></div></div>
+<!-- Review 3: Sidney City -->
+<div class="bg-surface-container-lowest p-8 rounded-3xl border border-outline-variant/30 flex flex-col justify-between shadow-[0_4px_20px_-2px_rgba(40,9,43,0.04)]" style="background-color: rgb(30, 22, 32); border-color: rgba(255, 255, 255, 0.08);"><div class=""><div class="flex items-center justify-between mb-4"><div class="flex text-on-tertiary-container"><span class="material-symbols-outlined text-[18px] text-amber-400" data-icon="star" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">star</span><span class="material-symbols-outlined text-[18px] text-amber-400" data-icon="star" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">star</span><span class="material-symbols-outlined text-[18px] text-amber-400" data-icon="star" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">star</span><span class="material-symbols-outlined text-[18px] text-amber-400" data-icon="star" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">star</span><span class="material-symbols-outlined text-[18px] text-amber-400" data-icon="star" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">star</span></div><span class="font-label-sm text-label-sm text-[#d8c2db]">5 estrelas</span></div><p class="font-body-md text-body-md text-[#f5eff7] mb-5 italic">"O açaí é maravilhoso, muito saboroso e bem servido. Os lanches também são incríveis, tudo muito fresco e de qualidade. O atendimento foi ótimo."</p><div class="mb-5 p-2.5 rounded-2xl bg-[#281b2b] border border-[#362539] flex items-center gap-3"><img alt="Foto enviada por Sidney City" class="w-14 h-14 rounded-xl object-cover" src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlQ34fkcN93cWIyju4vQEHWaoXVwFI3VBKZdMRjq01GKfyetg3uS0y6s6eH0oBTKDLQpU2v4EttNdB5_b_fV1HmdQ0AB01GeEXvXnq0rt_5XvAUtGd3ywifpVw9FsnzRMbnwndLaQ=s508-k-no"><div><span class="font-label-sm text-label-sm font-semibold text-secondary block">Foto enviada por Sidney City</span><span class="font-body-sm text-body-sm text-[#d8c2db]">Copo de açaí com morangos recebido</span></div></div></div><div class="pt-4 border-t border-[#362539] flex items-center justify-between"><div><div class="font-title-md text-title-md font-bold text-[#f5eff7]">Sidney City</div><div class="font-label-sm text-label-sm text-secondary font-medium">Local Guide · 8 fotos</div></div><span class="material-symbols-outlined text-secondary" data-icon="verified_user">verified_user</span></div></div>
+</div>
+</div>
+</section>
+<!-- 8. Galeria Documental da Casa & Fachada (#galeria) -->
+<section class="py-24 max-w-7xl mx-auto px-6 md:px-12" id="galeria">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Espaço Físico</span>
+<h2 class="font-headline-lg text-headline-lg font-bold text-white mt-2 mb-4">Conheça Nossa Casa no Parque Fernanda</h2>
+<p class="font-body-md text-body-md text-[#d8c2db]">Um ambiente planejado para o acolhimento, iluminação amigável e higiene exemplar para suas pausas da tarde ou noite.</p>
+</div>
+<!-- Asymmetric Gallery Grid -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6"><div class="md:col-span-8 rounded-3xl overflow-hidden shadow-md group relative cursor-pointer gallery-trigger" data-img-title="Fachada Noturna &amp; Área Externa" data-img-url="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl8iK9pM8mFMgVNdyt7uu3RHoshhE6283HuMm28pqeVkqPCHXJZMCpmyacqTYWAnx-RND6lmOWQr9pkG_7gpVKN2xpu1I_wFoFKUzwApJTBzxoVCFevvnOi6cdjoJkTpge1EAlzLA=s1200-k-no"><img alt="Fachada Noturna e Área Externa" class="w-full h-80 md:h-[420px] object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl8iK9pM8mFMgVNdyt7uu3RHoshhE6283HuMm28pqeVkqPCHXJZMCpmyacqTYWAnx-RND6lmOWQr9pkG_7gpVKN2xpu1I_wFoFKUzwApJTBzxoVCFevvnOi6cdjoJkTpge1EAlzLA=s1200-k-no"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6"><div class="text-white"><h4 class="font-title-md text-title-md font-bold">Fachada Noturna &amp; Mesas</h4><p class="font-body-sm text-body-sm text-white/80">Estrada de Itapecerica iluminada e acolhedora</p></div></div></div><div class="md:col-span-4 rounded-3xl overflow-hidden shadow-md group relative cursor-pointer gallery-trigger" data-img-title="Balcão de Atendimento &amp; Banquetas" data-img-url="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnsmnuXzK6u9KunEsu_GeIsPwj37S8T_BNBYflnCoiK_SNaxUJeii1x6BPRRhLqxvSIFVopRVD_d32Gk1rOZd3IN7JS7hdOq2eFbyWOGP0TIJQ_fbLpA82cJUtxOMf_8IlwcxUz=s1200-k-no"><img alt="Balcão com Banquetas e Parede Verde" class="w-full h-80 md:h-[420px] object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnsmnuXzK6u9KunEsu_GeIsPwj37S8T_BNBYflnCoiK_SNaxUJeii1x6BPRRhLqxvSIFVopRVD_d32Gk1rOZd3IN7JS7hdOq2eFbyWOGP0TIJQ_fbLpA82cJUtxOMf_8IlwcxUz=s1200-k-no"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6"><div class="text-white"><h4 class="font-title-md text-title-md font-bold">Balcão Verde &amp; Banquetas</h4><p class="font-body-sm text-body-sm text-white/80">Ambiente acolhedor com detalhes botânicos</p></div></div></div><div class="md:col-span-4 rounded-3xl overflow-hidden shadow-md group relative cursor-pointer gallery-trigger" data-img-title="Salão Interno com Mesas de Madeira" data-img-url="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkuggsci_35_iv8X9XQrhhEWUlOQ5O6LneTKfFR9FEle8_2lWffb4B-vNNtJAqUFVrw749LtL6owBdU-KTVhdijfBd32WWTuoXqemU_HLpFbjdkNRcTB1Nd-wiwbZ8zGEPvc-ym-A=s1200-k-no"><img alt="Salão Interno com Mesas" class="w-full h-72 object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkuggsci_35_iv8X9XQrhhEWUlOQ5O6LneTKfFR9FEle8_2lWffb4B-vNNtJAqUFVrw749LtL6owBdU-KTVhdijfBd32WWTuoXqemU_HLpFbjdkNRcTB1Nd-wiwbZ8zGEPvc-ym-A=s1200-k-no"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6"><div class="text-white"><h4 class="font-title-md text-title-md font-bold">Salão Interno com Mesas</h4><p class="font-body-sm text-body-sm text-white/80">Espaço intimista para famílias e amigos</p></div></div></div><div class="md:col-span-4 rounded-3xl overflow-hidden shadow-md group relative cursor-pointer gallery-trigger" data-img-title="Preparo de Complementos &amp; Doces Artesanais" data-img-url="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkIji4LOLf34HEPcNnquW_2BnBfu7V5DJZ7PNcKw1rWdlsJLmK3JjMj6iLslBdI3Vv27Q7bsbhaRLx8Mod6VUtqPYqZJN2NCBCwTkIfS6gQICwmsJPa5TWAVuv6EaVtBMlQpT5e=s1200-k-no"><img alt="Preparo de Complementos e Churros" class="w-full h-72 object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkIji4LOLf34HEPcNnquW_2BnBfu7V5DJZ7PNcKw1rWdlsJLmK3JjMj6iLslBdI3Vv27Q7bsbhaRLx8Mod6VUtqPYqZJN2NCBCwTkIfS6gQICwmsJPa5TWAVuv6EaVtBMlQpT5e=s1200-k-no"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6"><div class="text-white"><h4 class="font-title-md text-title-md font-bold">Preparo de Complementos</h4><p class="font-body-sm text-body-sm text-white/80">Porções frescas servidas diariamente</p></div></div></div><div class="md:col-span-4 rounded-3xl overflow-hidden shadow-md group relative cursor-pointer gallery-trigger" data-img-title="Açaí Artesanal Farto com Frutas" data-img-url="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlQ34fkcN93cWIyju4vQEHWaoXVwFI3VBKZdMRjq01GKfyetg3uS0y6s6eH0oBTKDLQpU2v4EttNdB5_b_fV1HmdQ0AB01GeEXvXnq0rt_5XvAUtGd3ywifpVw9FsnzRMbnwndLaQ=s1200-k-no"><img alt="Taça de Açaí Artesanal" class="w-full h-72 object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlQ34fkcN93cWIyju4vQEHWaoXVwFI3VBKZdMRjq01GKfyetg3uS0y6s6eH0oBTKDLQpU2v4EttNdB5_b_fV1HmdQ0AB01GeEXvXnq0rt_5XvAUtGd3ywifpVw9FsnzRMbnwndLaQ=s1200-k-no"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6"><div class="text-white"><h4 class="font-title-md text-title-md font-bold">Taça Artesanal com Morangos</h4><p class="font-body-sm text-body-sm text-white/80">Montagem nobre com textura aveludada</p></div></div></div></div>
+</section>
+<!-- Lightbox Modal for Gallery -->
+<div class="fixed inset-0 z-50 bg-black/90 backdrop-blur-md hidden flex items-center justify-center p-4" id="gallery-lightbox">
+<button class="absolute top-6 right-6 text-white p-2 rounded-full hover:bg-white/20 transition-colors" id="lightbox-close">
+<span class="material-symbols-outlined text-[32px]" data-icon="close">close</span>
+</button>
+<div class="max-w-4xl w-full text-center">
+<img alt="" class="max-h-[80vh] w-auto mx-auto rounded-2xl shadow-2xl object-contain" id="lightbox-img" src="">
+<p class="text-white font-title-md text-title-md mt-4 font-semibold" id="lightbox-title"></p>
+</div>
+</div>
+<!-- 9. Localização e Informações (#localizacao) -->
+<section class="py-24 bg-surface-container-low border-t border-surface-container" id="localizacao" style="background-color: rgb(19, 13, 20); border-color: rgba(255, 255, 255, 0.08);">
+<div class="max-w-7xl mx-auto px-6 md:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Info Details -->
+<div class="lg:col-span-6 space-y-8">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Onde Estamos</span>
+<h2 class="font-headline-lg text-headline-lg font-bold text-white mt-1">Fácil Acesso no Coração do Parque Fernanda</h2>
+<p class="font-body-md text-body-md text-[#d8c2db] mt-2">Venha retirar no balcão, degustar com a família em nosso espaço ou pedir com rapidez pelo Keeta Delivery.</p>
+</div>
+<!-- Structured Details List -->
+<div class="space-y-6"><div class="flex items-start gap-4"><div class="w-12 h-12 rounded-2xl bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0"><span class="material-symbols-outlined" data-icon="pin_drop">pin_drop</span></div><div><h4 class="font-title-md text-title-md font-bold text-white">Endereço Completo</h4><p class="font-body-md text-body-md text-[#d8c2db]">Estrada de Itapecerica, 6822 — Parque Fernanda, São Paulo — SP, 05858-002</p></div></div><div class="flex items-start gap-4"><div class="w-12 h-12 rounded-2xl bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center shrink-0"><span class="material-symbols-outlined" data-icon="schedule">schedule</span></div><div><h4 class="font-title-md text-title-md font-bold text-white">Horário de Atendimento</h4><p class="font-body-md text-body-md text-[#d8c2db]">Todos os dias: 13h00 às 23h00<br><span class="text-secondary font-semibold">Hambúrguer artesanal preparado a partir das 18h00</span></p></div></div><div class="flex items-start gap-4"><div class="w-12 h-12 rounded-2xl bg-primary-container text-on-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined" data-icon="call">call</span></div><div><h4 class="font-title-md text-title-md font-bold text-white">Telefone &amp; Contato</h4><a class="px-6 py-3.5 rounded-full bg-[#281b2b] text-[#f5eff7] hover:bg-[#342438] font-label-lg text-label-lg font-bold flex items-center gap-2 active:scale-95 transition-all" href="tel:+5511945001661"><span class="material-symbols-outlined" data-icon="phone_enabled">phone_enabled</span><span class="">Ligar agora</span></a></div></div></div>
+<!-- Action Buttons Group -->
+<div class="flex flex-wrap gap-4 pt-4">
+<a class="px-6 py-3.5 rounded-full bg-secondary text-on-secondary hover:bg-secondary/90 font-label-lg text-label-lg font-bold flex items-center gap-2 active:scale-95 transition-all" href="https://maps.app.goo.gl/n7C8KT6sB7hVExcv5" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined" data-icon="map">map</span>
+<span class="">Abrir no Google Maps</span>
+</a>
+<a class="px-6 py-3.5 rounded-full bg-[#281b2b] text-[#f5eff7] hover:bg-[#342438] font-label-lg text-label-lg font-bold flex items-center gap-2 active:scale-95 transition-all" href="tel:+5511945001661"><span class="material-symbols-outlined" data-icon="phone_enabled">phone_enabled</span><span class="">Ligar agora</span></a>
+<a class="px-6 py-3.5 rounded-full bg-primary-container text-on-primary hover:bg-black font-label-lg text-label-lg font-bold flex items-center gap-2 active:scale-95 transition-all" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined" data-icon="delivery_dining">delivery_dining</span><span class="">Pedir Delivery</span></a>
+</div>
+</div>
+<!-- Stylized Location Card Representation -->
+<div class="lg:col-span-6">
+<div class="bg-surface-container-lowest rounded-3xl p-8 border border-outline-variant/40 shadow-xl space-y-6 relative overflow-hidden" style="background-color: rgb(30, 22, 32); border-color: rgba(255, 255, 255, 0.08);">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary-container text-on-primary flex items-center justify-center">
+<span class="material-symbols-outlined" data-icon="storefront">storefront</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md font-bold text-white">Ponto Comercial Oficial</h4>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Parque Fernanda</span>
+</div>
+</div>
+<span class="px-3 py-1 rounded-full text-xs font-bold bg-secondary-fixed text-on-secondary-fixed">Aberto</span>
+</div>
+<!-- Stylized Static Map Graphic Card -->
+<div class="w-full h-72 rounded-2xl bg-surface-container relative overflow-hidden border border-surface-container-high flex flex-col items-center justify-center text-center p-6" data-location="São Paulo" style="background-color: rgb(40, 27, 43); border-color: rgb(54, 37, 57);">
+<!-- Decorative Grid Lines -->
+<div class="absolute inset-0 opacity-10 bg-[radial-gradient(#28092B_1px,transparent_1px)] [background-size:16px_16px]"></div>
+<div class="relative z-10 space-y-3">
+<div class="w-14 h-14 rounded-full bg-primary-container text-on-primary shadow-xl mx-auto flex items-center justify-center animate-bounce">
+<span class="material-symbols-outlined text-[28px]" data-icon="location_on">location_on</span>
+</div>
+<div class="font-headline-sm text-headline-sm font-bold text-white">Estrada de Itapecerica, 6822</div>
+<p class="font-body-sm text-body-sm text-[#d8c2db] max-w-sm">Próximo ao comércio central do Parque Fernanda. Local seguro e de fácil estacionamento.</p>
+<a class="inline-flex items-center gap-2 text-secondary font-bold font-label-lg text-label-lg hover:underline mt-2" href="https://maps.app.goo.gl/n7C8KT6sB7hVExcv5" rel="noopener noreferrer" target="_blank">
+<span class="">Traçar rota no navegador</span>
+<span class="material-symbols-outlined text-[16px]" data-icon="open_in_new">open_in_new</span>
+</a>
+</div>
+</div>
+<div class="p-4 rounded-xl bg-[#281b2b] text-[#d8c2db] border border-[#362539] font-body-sm text-body-sm flex items-center gap-3"><span class="material-symbols-outlined text-secondary" data-icon="directions_car">directions_car</span><span class="">Retirada rápida no local disponível para pedidos realizados previamente.</span></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 10. Especificações de Handoff & Antigravity (Card Técnico Discreto ao Final) -->
+
+<!-- 11. Footer Completo (Shared Component Execution) -->
+<footer class="w-full bg-surface-container-low border-t border-surface-container-highest/60 text-on-surface" style="background-color: rgb(15, 10, 16); border-color: rgba(255, 255, 255, 0.08); color: rgb(245, 239, 247);">
+<div class="max-w-7xl mx-auto px-6 md:px-12 py-16">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-12 pb-12 border-b border-surface-container-highest">
+<!-- Brand Message Column -->
+<div class="md:col-span-5 space-y-4">
+<a class="inline-block" href="#inicio">
+<span class="font-headline-md text-headline-md tracking-tight font-bold text-primary" style="color: rgb(255, 255, 255);">Açaí do Parque</span>
+</a>
+<p class="font-body-sm text-body-sm text-[#d8c2db] max-w-sm">Gastronomia artesanal, açaí puro ultracremoso, ingredientes frescos e lanches saborosos no Parque Fernanda, São Paulo.</p>
+<div class="flex items-center space-x-3 pt-2">
+<a aria-label="Instagram" class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface hover:bg-secondary hover:text-on-secondary transition-colors" href="https://www.instagram.com/acaiidoparque/" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]" data-icon="photo_camera">photo_camera</span>
+</a>
+<a aria-label="Google Maps" class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface hover:bg-secondary hover:text-on-secondary transition-colors" href="https://maps.app.goo.gl/n7C8KT6sB7hVExcv5" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]" data-icon="location_on">location_on</span>
+</a>
+<a aria-label="Keeta Delivery" class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface hover:bg-secondary hover:text-on-secondary transition-colors" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]" data-icon="shopping_bag">shopping_bag</span>
+</a>
+</div>
+</div>
+<!-- Quick Links -->
+<div class="md:col-span-4 space-y-3"><h4 class="font-title-md text-title-md font-bold text-white">Navegação Rápida</h4><ul class="space-y-2 font-label-lg text-label-lg"><li class=""><a class="text-[#d8c2db] hover:text-secondary transition-colors" href="#cardapio">Cardápio</a></li><li class=""><a class="text-[#d8c2db] hover:text-secondary transition-colors" href="https://fooddelivery-eu.mykeeta.com/mpweb/shop_golden?useShopPoi=1&amp;channel=googlemap&amp;shopId=159392029&amp;cityId=102302389&amp;lch=default~*googlemap~*BR~*159392029" rel="noopener noreferrer" target="_blank">Pedir Delivery</a></li><li class=""><a class="text-[#d8c2db] hover:text-secondary transition-colors" href="#avaliacoes">Avaliações</a></li><li class=""><a class="text-[#d8c2db] hover:text-secondary transition-colors" href="#localizacao">Localização e Horários</a></li><li class=""><a class="text-[#d8c2db] hover:text-secondary transition-colors" href="#inicio">Termos e Privacidade</a></li></ul></div>
+<!-- Horário Resumo -->
+<div class="md:col-span-3 space-y-3"><h4 class="font-title-md text-title-md font-bold text-white">Atendimento</h4><p class="font-body-sm text-body-sm text-[#d8c2db]">Segunda a Domingo<br>Das 13h às 23h<br>Hambúrgueres: a partir das 18h</p><div class="pt-2"><span class="font-label-sm text-label-sm text-secondary font-bold">Parque Fernanda — SP</span></div></div>
+</div>
+<!-- Copyright Execution exactly as specified -->
+<div class="pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left"><p class="font-body-sm text-body-sm text-[#d8c2db]">© 2026 Açaí do Parque - Parque Fernanda, São Paulo. Todos os direitos reservados.</p><div class="flex items-center space-x-6 text-[#d8c2db] font-label-sm text-label-sm"><span class="">·</span><span class="flex flex-col text-right"><span class="text-[#d8c2db]">Site desenvolvido por Matheus Garcia</span><a class="text-xs text-[#b59ebb] hover:text-secondary transition-colors" href="tel:+5511978854658">serviços: 11978854658</a></span></div></div>
+</div>
+</footer>
+<!-- Vanilla JavaScript for Interactive State & Accessibility Controls -->
+<script>
+    // Accessibility: Reduce Motion Toggle
+    const motionToggleBtn = document.getElementById('motion-toggle');
+    let reducedMotionActive = false;
+
+    motionToggleBtn.addEventListener('click', () => {
+      reducedMotionActive = !reducedMotionActive;
+      document.documentElement.classList.toggle('reduced-motion', reducedMotionActive);
+      motionToggleBtn.classList.toggle('bg-primary-container', reducedMotionActive);
+      motionToggleBtn.classList.toggle('text-white', reducedMotionActive);
+    });
+
+    // Mobile Menu Toggle
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Layer Assembly Interactive Animation Reset Simulation
+    const btnToggleAssembly = document.getElementById('btn-toggle-assembly');
+    const layers = [
+      document.getElementById('layer-5'),
+      document.getElementById('layer-4'),
+      document.getElementById('layer-3'),
+      document.getElementById('layer-2')
+    ];
+
+    btnToggleAssembly.addEventListener('click', () => {
+      // Temporarily hide and trigger sequential cascade
+      layers.forEach((layer, idx) => {
+        layer.style.opacity = '0';
+        layer.style.transform = 'translateY(-20px)';
+      });
+
+      layers.forEach((layer, idx) => {
+        setTimeout(() => {
+          layer.style.opacity = '1';
+          layer.style.transform = 'translateY(0)';
+        }, (idx + 1) * 250);
+      });
+    });
+
+    // Lightbox Modal Interactivity
+    const lightbox = document.getElementById('gallery-lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxTitle = document.getElementById('lightbox-title');
+    const lightboxClose = document.getElementById('lightbox-close');
+    const galleryTriggers = document.querySelectorAll('.gallery-trigger');
+
+    galleryTriggers.forEach(item => {
+      item.addEventListener('click', () => {
+        const url = item.getAttribute('data-img-url');
+        const title = item.getAttribute('data-img-title');
+        lightboxImg.src = url;
+        lightboxImg.alt = title;
+        lightboxTitle.textContent = title;
+        lightbox.classList.remove('hidden');
+      });
+    });
+
+    lightboxClose.addEventListener('click', () => {
+      lightbox.classList.add('hidden');
+    });
+
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) {
+        lightbox.classList.add('hidden');
+      }
+    });
+
+    // Category Filter Visual Snapping
+    const catButtons = document.querySelectorAll('#categories-filter-bar button');
+    catButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        catButtons.forEach(b => {
+          b.classList.remove('bg-secondary', 'text-on-secondary');
+          b.classList.add('bg-surface-container', 'text-on-surface');
+        });
+        btn.classList.remove('bg-surface-container', 'text-on-surface');
+        btn.classList.add('bg-secondary', 'text-on-secondary');
+      });
+    });
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html>
