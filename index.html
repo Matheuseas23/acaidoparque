@@ -211,10 +211,37 @@
     #main-header:not(.header-scrolled) .nav-shadow-text {
       text-shadow: 0 2px 6px rgba(0, 0, 0, 0.75);
     }
+
+    /* Efeito de Foco de Câmera na revelação do site */
+    body.loading-focus > *:not(#preloader):not(script):not(style) {
+      filter: blur(16px) brightness(1.2);
+      transform: scale(1.04);
+      opacity: 0.8;
+      pointer-events: none;
+    }
+    body > *:not(#preloader):not(script):not(style) {
+      transition: filter 2s cubic-bezier(0.16, 1, 0.3, 1), transform 2s cubic-bezier(0.16, 1, 0.3, 1), opacity 2s ease-in-out;
+    }
   </style>
 </head>
 
-<body class="bg-surface-dark text-white selection:bg-brand-purple selection:text-white antialiased">
+<body class="bg-surface-dark text-white selection:bg-brand-purple selection:text-white antialiased loading-focus">
+
+  <!-- Preloader Splash Screen -->
+  <div id="preloader" class="fixed inset-0 z-[99999] bg-black flex flex-col items-center justify-center transition-all duration-700">
+    <!-- Bloco 1: Carregamento -->
+    <div id="loader-block" class="flex flex-col items-center justify-center w-full max-w-[240px] transition-all duration-500">
+      <span class="text-white font-serif tracking-widest text-sm mb-4">CARREGANDO</span>
+      <div class="w-full h-1 bg-white/20 rounded-full overflow-hidden">
+        <div id="loader-bar" class="h-full bg-white w-0 transition-all duration-300 ease-out"></div>
+      </div>
+    </div>
+    <!-- Bloco 2: Assinatura Garcia Web -->
+    <div id="signature-block" class="absolute flex flex-col items-center justify-center opacity-0 scale-95 transition-all duration-700 pointer-events-none">
+      <span class="text-text-muted text-xs mb-3">Criado por:</span>
+      <img src="./assets/Garcia web (Escuro).png" alt="Garcia Web" class="h-32">
+    </div>
+  </div>
 
   <!-- 1. TopNavBar (Header Fixo Dinâmico) -->
   <header id="main-header" class="fixed top-0 left-0 right-0 w-full z-50">
@@ -1904,8 +1931,17 @@
       <!-- Copyright e Créditos -->
       <div class="pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
         <p class="text-xs text-text-muted">© 2026 Açaí do Parque — Parque Fernanda, São Paulo. Todos os direitos reservados.</p>
-        <div class="flex items-center space-x-4 text-text-muted text-xs">
-          <span>Site desenvolvido por Matheus Garcia</span>
+        <div class="flex flex-col items-center md:items-end gap-1.5">
+          <div class="flex items-center space-x-2 text-text-muted text-xs">
+            <span>Site criado por:</span>
+            <img src="./assets/Garcia web (Escuro).png" alt="Garcia Web" class="h-16 opacity-90 hover:opacity-100 transition-all">
+          </div>
+          <a href="https://wa.me/5511978854658" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1.5 text-text-muted hover:text-[#25D366] transition-colors text-xs font-medium">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.888-.788-1.489-1.761-1.663-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+            </svg>
+            <span>Falar com o desenvolvedor</span>
+          </a>
         </div>
       </div>
     </div>
@@ -2282,6 +2318,58 @@
         if (e.target === lightbox) {
           lightbox.classList.add('hidden');
         }
+      });
+
+      // 8. Preloader Logic
+      const preloader = document.getElementById('preloader');
+      const loaderBar = document.getElementById('loader-bar');
+      const loaderBlock = document.getElementById('loader-block');
+      const signatureBlock = document.getElementById('signature-block');
+      
+      let progress = 0;
+      // Anima a barra até ~90% enquanto os assets pesados carregam
+      const interval = setInterval(() => {
+        if (progress < 90) {
+          progress += Math.random() * 15;
+          if (progress > 90) progress = 90;
+          if (loaderBar) loaderBar.style.width = progress + '%';
+        }
+      }, 200);
+
+      window.addEventListener('load', () => {
+        clearInterval(interval);
+        // Completa 100% da barra quando tudo termina de carregar
+        if (loaderBar) loaderBar.style.width = '100%';
+        
+        setTimeout(() => {
+          // Fase 1: Oculta a barra de progresso com fade
+          if (loaderBlock) {
+            loaderBlock.classList.add('opacity-0', 'scale-95');
+          }
+          
+          // Fase 2: Mostra a assinatura da Garcia Web
+          setTimeout(() => {
+            if (signatureBlock) {
+              signatureBlock.classList.remove('opacity-0', 'scale-95', 'pointer-events-none');
+              signatureBlock.classList.add('opacity-100', 'scale-100');
+            }
+            
+            // Fase 3: Remove a tela de carregamento revelando o site
+            setTimeout(() => {
+              if (preloader) {
+                preloader.classList.add('opacity-0', 'pointer-events-none');
+                
+                // Desfaz o blur de todo o site, criando o efeito de lente de câmera focando!
+                document.body.classList.remove('loading-focus');
+
+                setTimeout(() => {
+                  preloader.remove();
+                }, 700); // Tempo do fade out da tela principal
+              }
+            }, 1800); // Tempo que a assinatura fica visível
+            
+          }, 300); // Pequeno atraso após a barra sumir
+        }, 400); // Atraso para ler o "100%" visualmente
       });
     });
   </script>
