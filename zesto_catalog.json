@@ -1,0 +1,3585 @@
+{
+  "shop_info": {
+    "store_id": "40000343600324763",
+    "city_id": "55000199",
+    "store_name": "Açai do Parque ",
+    "shop_status": 1,
+    "shop_status_desc": "正常",
+    "biz_day_time_desc": [
+      {
+        "biz_day_desc": "Monday",
+        "biz_time_descs": [
+          {
+            "start_time": "13:00",
+            "end_time": "22:55"
+          }
+        ],
+        "day_of_week": 1
+      },
+      {
+        "biz_day_desc": "Tuesday",
+        "biz_time_descs": [
+          {
+            "start_time": "12:00",
+            "end_time": "22:55"
+          }
+        ],
+        "day_of_week": 2
+      },
+      {
+        "biz_day_desc": "Wednesday",
+        "biz_time_descs": [
+          {
+            "start_time": "13:00",
+            "end_time": "22:55"
+          }
+        ],
+        "day_of_week": 3
+      },
+      {
+        "biz_day_desc": "Thursday",
+        "biz_time_descs": [
+          {
+            "start_time": "13:00",
+            "end_time": "22:55"
+          }
+        ],
+        "day_of_week": 4
+      },
+      {
+        "biz_day_desc": "Friday",
+        "biz_time_descs": [
+          {
+            "start_time": "13:00",
+            "end_time": "22:55"
+          }
+        ],
+        "day_of_week": 5
+      },
+      {
+        "biz_day_desc": "Saturday",
+        "biz_time_descs": [
+          {
+            "start_time": "13:00",
+            "end_time": "22:55"
+          }
+        ],
+        "day_of_week": 6
+      },
+      {
+        "biz_day_desc": "Sunday",
+        "biz_time_descs": [
+          {
+            "start_time": "13:00",
+            "end_time": "22:55"
+          }
+        ],
+        "day_of_week": 7
+      }
+    ],
+    "online_business_time_desc": {
+      "biz_day_desc": "quarta-feira",
+      "biz_time_descs": [
+        {
+          "start_time": "13:00",
+          "end_time": "22:55"
+        }
+      ],
+      "closure_notice": {
+        "status": 1,
+        "desc": "OPEN"
+      },
+      "day_of_week": 0
+    },
+    "deliver_type": 3,
+    "logo_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/store/1785251033992-717eab75-b4fa-42d4-966d-fdb23f378b51.png",
+    "background_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/store/1785251025731-bc67db45-3447-4c57-8c99-6ead3639ff7b.png",
+    "address": "Estrada de Itapecerica, 6840, Parque Fernanda, São Paulo, SP, 05858-002",
+    "contact_infos": [
+      {
+        "contact_type": 1,
+        "calling_code": "+55",
+        "phone": "11945001661"
+      }
+    ],
+    "distance": 5689166,
+    "is_in_range": false,
+    "lat": -23.6717911,
+    "lng": -46.787546,
+    "takeout": {
+      "delivery_time": "",
+      "delivery_fee": 0,
+      "delivery_fee_diy": "R$0,00",
+      "min_order_price": 1000
+    },
+    "pick_up": {
+      "meal_time": "30",
+      "distance": "5689.2 km"
+    },
+    "shop_link": "https://pedido.zesto.menu/pt-BR/store/acai-do-parque/ydloihubazlmjxkzs",
+    "pay_channels": [
+      {
+        "pay_channel_type": 301,
+        "pay_channel_name": "Cartão de débito",
+        "selected": false,
+        "icon": "https://img0.didiglobal.com/static/gstar/img/2DTPB49ypH1769049650209.png",
+        "maximum": 0,
+        "payment_type": 2,
+        "display_priority": 12,
+        "is_last_usage": false,
+        "pay_channel_sub_types": [
+          {
+            "pay_channel_sub_name": "Mastercard",
+            "pay_channel_sub_code": 1001
+          },
+          {
+            "pay_channel_sub_name": "Visa",
+            "pay_channel_sub_code": 1002
+          },
+          {
+            "pay_channel_sub_name": "Cabal",
+            "pay_channel_sub_code": 1003
+          },
+          {
+            "pay_channel_sub_name": "Elo",
+            "pay_channel_sub_code": 1004
+          },
+          {
+            "pay_channel_sub_name": "Hipercard",
+            "pay_channel_sub_code": 1005
+          },
+          {
+            "pay_channel_sub_name": "Banescard",
+            "pay_channel_sub_code": 1006
+          },
+          {
+            "pay_channel_sub_name": "Jcb",
+            "pay_channel_sub_code": 1007
+          },
+          {
+            "pay_channel_sub_name": "Goodcard",
+            "pay_channel_sub_code": 1008
+          },
+          {
+            "pay_channel_sub_name": "Unionpay",
+            "pay_channel_sub_code": 1009
+          },
+          {
+            "pay_channel_sub_name": "Coopercard",
+            "pay_channel_sub_code": 1010
+          }
+        ],
+        "payment_mode": 0,
+        "source": 1
+      },
+      {
+        "pay_channel_type": 401,
+        "pay_channel_name": "Cartão de crédito",
+        "selected": false,
+        "icon": "https://img0.didiglobal.com/static/gstar/img/N6YDdpOeZi1769049662048.png",
+        "maximum": 0,
+        "payment_type": 2,
+        "display_priority": 13,
+        "is_last_usage": false,
+        "pay_channel_sub_types": [
+          {
+            "pay_channel_sub_name": "Mastercard",
+            "pay_channel_sub_code": 2001
+          },
+          {
+            "pay_channel_sub_name": "Visa",
+            "pay_channel_sub_code": 2002
+          },
+          {
+            "pay_channel_sub_name": "Elo",
+            "pay_channel_sub_code": 2003
+          },
+          {
+            "pay_channel_sub_name": "American Express",
+            "pay_channel_sub_code": 2004
+          },
+          {
+            "pay_channel_sub_name": "Dinners",
+            "pay_channel_sub_code": 2005
+          },
+          {
+            "pay_channel_sub_name": "Jcb",
+            "pay_channel_sub_code": 2006
+          },
+          {
+            "pay_channel_sub_name": "Goodcard",
+            "pay_channel_sub_code": 2007
+          },
+          {
+            "pay_channel_sub_name": "Unionpay",
+            "pay_channel_sub_code": 2008
+          },
+          {
+            "pay_channel_sub_name": "Coopercard",
+            "pay_channel_sub_code": 2009
+          },
+          {
+            "pay_channel_sub_name": "Banricompras",
+            "pay_channel_sub_code": 2010
+          },
+          {
+            "pay_channel_sub_name": "Verdecard",
+            "pay_channel_sub_code": 2011
+          },
+          {
+            "pay_channel_sub_name": "Nugo",
+            "pay_channel_sub_code": 2012
+          },
+          {
+            "pay_channel_sub_name": "Banricard",
+            "pay_channel_sub_code": 2013
+          },
+          {
+            "pay_channel_sub_name": "Brasilcard",
+            "pay_channel_sub_code": 2014
+          },
+          {
+            "pay_channel_sub_name": "Personal card",
+            "pay_channel_sub_code": 2015
+          },
+          {
+            "pay_channel_sub_name": "Senff",
+            "pay_channel_sub_code": 2016
+          },
+          {
+            "pay_channel_sub_name": "Aura",
+            "pay_channel_sub_code": 2017
+          },
+          {
+            "pay_channel_sub_name": "Credishop",
+            "pay_channel_sub_code": 2018
+          },
+          {
+            "pay_channel_sub_name": "Hipercard",
+            "pay_channel_sub_code": 2019
+          },
+          {
+            "pay_channel_sub_name": "Cabal",
+            "pay_channel_sub_code": 2020
+          },
+          {
+            "pay_channel_sub_name": "Banescard",
+            "pay_channel_sub_code": 2021
+          }
+        ],
+        "payment_mode": 0,
+        "source": 1
+      },
+      {
+        "pay_channel_type": 501,
+        "pay_channel_name": "Vale-refeição",
+        "selected": false,
+        "icon": "https://s3-us01.didiglobal.com/silver-bullet-img/2025-07-14/Oe_cA_/Meal_Voucher_3x.png",
+        "maximum": 0,
+        "payment_type": 2,
+        "display_priority": 14,
+        "is_last_usage": false,
+        "pay_channel_sub_types": [
+          {
+            "pay_channel_sub_name": "Alelo refeição",
+            "pay_channel_sub_code": 3001
+          },
+          {
+            "pay_channel_sub_name": "Ticket refeição",
+            "pay_channel_sub_code": 3002
+          },
+          {
+            "pay_channel_sub_name": "Sodexo refeição",
+            "pay_channel_sub_code": 3003
+          },
+          {
+            "pay_channel_sub_name": "Pluxee refeição",
+            "pay_channel_sub_code": 3005
+          }
+        ],
+        "payment_mode": 0,
+        "source": 1
+      },
+      {
+        "pay_channel_type": 201,
+        "pay_channel_name": "Dinheiro",
+        "selected": false,
+        "icon": "https://img0.didiglobal.com/static/gstar/img/mn00SgCa8a1769049657267.png",
+        "maximum": 60000,
+        "payment_type": 2,
+        "display_priority": 15,
+        "is_last_usage": false,
+        "payment_mode": 0,
+        "source": 1
+      }
+    ],
+    "banner": [],
+    "about_us_desc": "",
+    "store_ins_account": [],
+    "min_order_price": 1000,
+    "currency": "BRL",
+    "distance_km": 5689.2,
+    "meta_info": {
+      "org_id": "20030343600663935",
+      "tenant_id": "10020343600444167",
+      "store_id": "40000343600324763",
+      "city_id": "55000199",
+      "location_country": "BR",
+      "locale": "",
+      "latitude": -23.6717911,
+      "longitude": -46.787546,
+      "decoration_type": "Green",
+      "menu_setup": {
+        "allow_order_remark": true,
+        "allow_reorder": true,
+        "highlight_popular": true,
+        "show_sold_out": true,
+        "show_not_yet_on_sale": false,
+        "allow_disposable_utensils": false,
+        "boss_recommend": true
+      }
+    },
+    "delivery_areas": [
+      {
+        "delivery_price": 500,
+        "eta": 0,
+        "map_area": {
+          "area_type": 2,
+          "circle": {
+            "center": {
+              "lat": -23.671791,
+              "lng": -46.787544
+            },
+            "radius": 1000
+          },
+          "polygon_points": null
+        },
+        "isActive": 1,
+        "area_m2": 0,
+        "effective_time": {
+          "time_type": 0,
+          "time_ranges": []
+        },
+        "sort": 100,
+        "eta_duration": {
+          "start": 10,
+          "end": 40
+        },
+        "is_support": true,
+        "area_id": "360287970191360411",
+        "bairro_name": "",
+        "is_isochrones": false
+      },
+      {
+        "delivery_price": 600,
+        "eta": 0,
+        "map_area": {
+          "area_type": 2,
+          "circle": {
+            "center": {
+              "lat": -23.671791,
+              "lng": -46.787544
+            },
+            "radius": 2000
+          },
+          "polygon_points": null
+        },
+        "isActive": 1,
+        "area_m2": 0,
+        "effective_time": {
+          "time_type": 0,
+          "time_ranges": []
+        },
+        "sort": 100,
+        "eta_duration": {
+          "start": 10,
+          "end": 40
+        },
+        "is_support": true,
+        "area_id": "360287970191919818",
+        "bairro_name": "",
+        "is_isochrones": false
+      },
+      {
+        "delivery_price": 700,
+        "eta": 0,
+        "map_area": {
+          "area_type": 2,
+          "circle": {
+            "center": {
+              "lat": -23.671791,
+              "lng": -46.787544
+            },
+            "radius": 3000
+          },
+          "polygon_points": null
+        },
+        "isActive": 1,
+        "area_m2": 0,
+        "effective_time": {
+          "time_type": 0,
+          "time_ranges": []
+        },
+        "sort": 100,
+        "eta_duration": {
+          "start": 10,
+          "end": 40
+        },
+        "is_support": true,
+        "area_id": "360287970191720450",
+        "bairro_name": "",
+        "is_isochrones": false
+      },
+      {
+        "delivery_price": 800,
+        "eta": 0,
+        "map_area": {
+          "area_type": 2,
+          "circle": {
+            "center": {
+              "lat": -23.671791,
+              "lng": -46.787544
+            },
+            "radius": 4000
+          },
+          "polygon_points": null
+        },
+        "isActive": 1,
+        "area_m2": 0,
+        "effective_time": {
+          "time_type": 0,
+          "time_ranges": []
+        },
+        "sort": 100,
+        "eta_duration": {
+          "start": 10,
+          "end": 40
+        },
+        "is_support": true,
+        "area_id": "360287970191999871",
+        "bairro_name": "",
+        "is_isochrones": false
+      },
+      {
+        "delivery_price": 900,
+        "eta": 0,
+        "map_area": {
+          "area_type": 2,
+          "circle": {
+            "center": {
+              "lat": -23.671791,
+              "lng": -46.787544
+            },
+            "radius": 5000
+          },
+          "polygon_points": null
+        },
+        "isActive": 1,
+        "area_m2": 0,
+        "effective_time": {
+          "time_type": 0,
+          "time_ranges": []
+        },
+        "sort": 100,
+        "eta_duration": {
+          "start": 10,
+          "end": 40
+        },
+        "is_support": true,
+        "area_id": "360287970191301191",
+        "bairro_name": "",
+        "is_isochrones": false
+      },
+      {
+        "delivery_price": 1000,
+        "eta": 0,
+        "map_area": {
+          "area_type": 2,
+          "circle": {
+            "center": {
+              "lat": -23.671791,
+              "lng": -46.787544
+            },
+            "radius": 6000
+          },
+          "polygon_points": null
+        },
+        "isActive": 1,
+        "area_m2": 0,
+        "effective_time": {
+          "time_type": 0,
+          "time_ranges": []
+        },
+        "sort": 100,
+        "eta_duration": {
+          "start": 10,
+          "end": 40
+        },
+        "is_support": true,
+        "area_id": "360287970191799878",
+        "bairro_name": "",
+        "is_isochrones": false
+      }
+    ],
+    "business_config": {
+      "is_takeout": true,
+      "is_pick_up": true,
+      "meal_prop_time": 30,
+      "min_order_price": 0,
+      "whatsapp_embedded": {
+        "contact_type": 3,
+        "calling_code": "+55",
+        "phone": "11945001661"
+      }
+    },
+    "delivery_config": [
+      {
+        "delivery_id": 0,
+        "delivery_name": "Entrega da loja",
+        "platform_icon": "https://s3-uspu.didiglobal.com/food-saas-infra/food_saas_docking/delivery_docking_paltform/ziying_logo.png",
+        "platform_desc": "Depois de ativar o serviço, você pode atribuir pedidos aos entregadores da sua loja e acompanhar os dados de entrega deles.",
+        "delivery_bind_url": "",
+        "status": 1
+      }
+    ],
+    "distance_diy": "5689.2 km",
+    "decoration_type": "Green",
+    "formatted_address": "",
+    "holiday_hours": [],
+    "booking_config": {
+      "booking_switch": false,
+      "support_booking_before_days": 5,
+      "support_booking_today": false,
+      "online_payment_only": false,
+      "allow_booking_when_closed": false,
+      "cancel_rule_unit": "HOUR",
+      "cancel_rule_value": 1
+    },
+    "store_business_mode": "SCHEDULED",
+    "store_order_mode": 2,
+    "delivery_type_list": [
+      1,
+      2
+    ],
+    "delivery_area_config": {
+      "area_mode": 0,
+      "community_cfg": {
+        "allow_edit_barrio": false,
+        "allow_edit_city": false,
+        "delivery_area_list": []
+      },
+      "map_cfg": {
+        "delivery_area_list": [
+          {
+            "delivery_price": 500,
+            "eta": 0,
+            "map_area": {
+              "area_type": 2,
+              "circle": {
+                "center": {
+                  "lat": -23.671791,
+                  "lng": -46.787544
+                },
+                "radius": 1000
+              },
+              "polygon_points": null
+            },
+            "isActive": 1,
+            "area_m2": 0,
+            "effective_time": {
+              "time_type": 0,
+              "time_ranges": []
+            },
+            "sort": 100,
+            "eta_duration": {
+              "start": 10,
+              "end": 40
+            },
+            "is_support": true,
+            "area_id": "360287970191360411",
+            "bairro_name": "",
+            "is_isochrones": false
+          },
+          {
+            "delivery_price": 600,
+            "eta": 0,
+            "map_area": {
+              "area_type": 2,
+              "circle": {
+                "center": {
+                  "lat": -23.671791,
+                  "lng": -46.787544
+                },
+                "radius": 2000
+              },
+              "polygon_points": null
+            },
+            "isActive": 1,
+            "area_m2": 0,
+            "effective_time": {
+              "time_type": 0,
+              "time_ranges": []
+            },
+            "sort": 100,
+            "eta_duration": {
+              "start": 10,
+              "end": 40
+            },
+            "is_support": true,
+            "area_id": "360287970191919818",
+            "bairro_name": "",
+            "is_isochrones": false
+          },
+          {
+            "delivery_price": 700,
+            "eta": 0,
+            "map_area": {
+              "area_type": 2,
+              "circle": {
+                "center": {
+                  "lat": -23.671791,
+                  "lng": -46.787544
+                },
+                "radius": 3000
+              },
+              "polygon_points": null
+            },
+            "isActive": 1,
+            "area_m2": 0,
+            "effective_time": {
+              "time_type": 0,
+              "time_ranges": []
+            },
+            "sort": 100,
+            "eta_duration": {
+              "start": 10,
+              "end": 40
+            },
+            "is_support": true,
+            "area_id": "360287970191720450",
+            "bairro_name": "",
+            "is_isochrones": false
+          },
+          {
+            "delivery_price": 800,
+            "eta": 0,
+            "map_area": {
+              "area_type": 2,
+              "circle": {
+                "center": {
+                  "lat": -23.671791,
+                  "lng": -46.787544
+                },
+                "radius": 4000
+              },
+              "polygon_points": null
+            },
+            "isActive": 1,
+            "area_m2": 0,
+            "effective_time": {
+              "time_type": 0,
+              "time_ranges": []
+            },
+            "sort": 100,
+            "eta_duration": {
+              "start": 10,
+              "end": 40
+            },
+            "is_support": true,
+            "area_id": "360287970191999871",
+            "bairro_name": "",
+            "is_isochrones": false
+          },
+          {
+            "delivery_price": 900,
+            "eta": 0,
+            "map_area": {
+              "area_type": 2,
+              "circle": {
+                "center": {
+                  "lat": -23.671791,
+                  "lng": -46.787544
+                },
+                "radius": 5000
+              },
+              "polygon_points": null
+            },
+            "isActive": 1,
+            "area_m2": 0,
+            "effective_time": {
+              "time_type": 0,
+              "time_ranges": []
+            },
+            "sort": 100,
+            "eta_duration": {
+              "start": 10,
+              "end": 40
+            },
+            "is_support": true,
+            "area_id": "360287970191301191",
+            "bairro_name": "",
+            "is_isochrones": false
+          },
+          {
+            "delivery_price": 1000,
+            "eta": 0,
+            "map_area": {
+              "area_type": 2,
+              "circle": {
+                "center": {
+                  "lat": -23.671791,
+                  "lng": -46.787544
+                },
+                "radius": 6000
+              },
+              "polygon_points": null
+            },
+            "isActive": 1,
+            "area_m2": 0,
+            "effective_time": {
+              "time_type": 0,
+              "time_ranges": []
+            },
+            "sort": 100,
+            "eta_duration": {
+              "start": 10,
+              "end": 40
+            },
+            "is_support": true,
+            "area_id": "360287970191799878",
+            "bairro_name": "",
+            "is_isochrones": false
+          }
+        ]
+      }
+    },
+    "city": "São Paulo",
+    "payment_config": {
+      "sub_payment_method_enabled": true,
+      "multiple_payment_config": {
+        "enabled": true,
+        "min_method_count": 1,
+        "max_method_count": 2
+      }
+    },
+    "shop_short_link": "https://pedido.zesto.menu/s/4x5VqyX",
+    "is_isochrones": false
+  },
+  "cate_list": [
+    {
+      "tip": "",
+      "cate_id": "000000002",
+      "cate_name": "Mais procurado",
+      "item_count": 0,
+      "item_info": [
+        {
+          "item_id": "21990235655938",
+          "item_name": "Monte o seu Açaí",
+          "item_desc": "Você pode escolher até 3 ingredientes.",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785424569378-68b07041-c01c-4ed6-9095-b06b27115121.png",
+          "cost_price": 0,
+          "selling_price": 2200,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$22,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235458721",
+          "cate_id": "21990235228029",
+          "quantity": 0,
+          "total_price": 2200,
+          "total_price_diy": "R$22,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 2200,
+          "final_price_diy": "R$22,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 1,
+          "create_time": 1785424643471,
+          "is_single_spec": 0,
+          "sale30D": 239,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235044407",
+          "item_name": "Jd. Irene (frutas, granola, leite em pó)",
+          "item_desc": "Açaí, leite condensado, leite em pó, duas frutas de sua escolha, e granola \nOBS ESTAMOS SEM GRANOLA, PODE COLOCAAR SUCRILHOS ? SE SIM  AVISAR NA OBS DO PEDIDO)",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785250491848-b0e9c1d8-c405-4293-86d2-e69ca9ab23aa.png",
+          "cost_price": 0,
+          "selling_price": 2000,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$20,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235306086",
+          "cate_id": "21990235512091",
+          "quantity": 0,
+          "total_price": 2000,
+          "total_price_diy": "R$20,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 2000,
+          "final_price_diy": "R$20,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 24,
+          "create_time": 1785247192065,
+          "is_single_spec": 1,
+          "sale30D": 212,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235056851",
+          "item_name": "Hot Dog Completo",
+          "item_desc": "Pão de hot dog, 2 salsichas, milho, maionese, ketchup, mostarda, purê caseiro, batata palha, molho cheddar e bacon.",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785255243359-f0afcead-54c5-4a7d-a889-7efaf8c174ca.png",
+          "cost_price": 0,
+          "selling_price": 1600,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$16,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235189777",
+          "cate_id": "21990235155510",
+          "quantity": 0,
+          "total_price": 1600,
+          "total_price_diy": "R$16,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 1600,
+          "final_price_diy": "R$16,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 27,
+          "create_time": 1785247192005,
+          "is_single_spec": 1,
+          "sale30D": 151,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235125290",
+          "item_name": "AÇAÍ/CUPUAÇU DE QUEBRADA",
+          "item_desc": "Açaí e leite condensado.",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785250280102-c0b208a1-ca19-431b-81f7-816890af69be.png",
+          "cost_price": 0,
+          "selling_price": 1000,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$10,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235592951",
+          "cate_id": "21990235512091",
+          "quantity": 0,
+          "total_price": 1000,
+          "total_price_diy": "R$10,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 1000,
+          "final_price_diy": "R$10,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 23,
+          "create_time": 1785247192001,
+          "is_single_spec": 1,
+          "sale30D": 134,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235651203",
+          "item_name": "Batata frita, molho cheddar e bacon",
+          "item_desc": "Batata palito aprox 270g, molho cheddar e bacon.",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785255628235-feeb4645-22c6-40ac-b16f-549cbaabf2eb.png",
+          "cost_price": 0,
+          "selling_price": 2500,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$25,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235263869",
+          "cate_id": "21990235044399",
+          "quantity": 0,
+          "total_price": 2500,
+          "total_price_diy": "R$25,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 2500,
+          "final_price_diy": "R$25,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 30,
+          "create_time": 1785247192072,
+          "is_single_spec": 1,
+          "sale30D": 109,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235076187",
+          "item_name": "Pq. Santo Antonio - Nutella C/ Fruta",
+          "item_desc": "Este prato é uma mescla harmoniosa de açaí fresco e autêntico, delicadamente adoçado com leite condensado para obter a cremosidade perfeita. Acrescentamos uma generosa camada de Nutella, que envolve o açaí com seu sabor irresistível de chocolate e avelã. Para completar, uma fruta de sua preferência adiciona um toque pessoal, transformando cada colherada em uma experiência única e refrescante. Uma combinação perfeita que realça e valoriza a riqueza de sabores.",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785249723018-dce75bb5-5e9f-441c-a3ec-19fc3fd3567c.png",
+          "cost_price": 0,
+          "selling_price": 2500,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$25,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235076711",
+          "cate_id": "21990235651198",
+          "quantity": 0,
+          "total_price": 2500,
+          "total_price_diy": "R$25,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 2500,
+          "final_price_diy": "R$25,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 18,
+          "create_time": 1785247192056,
+          "is_single_spec": 1,
+          "sale30D": 98,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235125298",
+          "item_name": "Coca-Cola Original 350ml",
+          "item_desc": "Lata 350ml",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785256129431-7b2fba84-5570-4398-b24e-a5e0888f45e5.png",
+          "cost_price": 700,
+          "selling_price": 700,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$7,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 2,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235552775",
+          "cate_id": "21990235491819",
+          "quantity": 0,
+          "total_price": 700,
+          "total_price_diy": "R$7,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 700,
+          "final_price_diy": "R$7,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 34,
+          "create_time": 1785247191965,
+          "is_single_spec": 1,
+          "sale30D": 90,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235228037",
+          "item_name": "Pq. Fernanda - Nutella c/ Amendoim",
+          "item_desc": "Este deleite é uma combinação esplêndida de açaí autêntico, generosamente coberto com leite condensado doce e cremoso. Apresenta uma borda deliciosamente espessa de Nutella, com uma surpresa interior de amendoim crocante. A cereja do bolo é a cobertura final de Nutella e amendoim, adicionando uma camada adicional de sabor irresistível. Para completar a experiência gastronômica, o prato é acompanhado por um chocolate Snickers. Uma indulgência verdadeiramente decadente e irresistível que promete satisfazer todos os seus desejos doces. Acai Açaí Açaís",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785249317920-ea2bf27a-649b-4ef7-be73-b98e6dace58c.png",
+          "cost_price": 0,
+          "selling_price": 2500,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$25,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235210073",
+          "cate_id": "21990235651198",
+          "quantity": 0,
+          "total_price": 2500,
+          "total_price_diy": "R$25,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 2500,
+          "final_price_diy": "R$25,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 14,
+          "create_time": 1785247192043,
+          "is_single_spec": 1,
+          "sale30D": 79,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        }
+      ],
+      "ref_cate_id": "000000002"
+    },
+    {
+      "tip": "",
+      "cate_id": "21990235552767",
+      "cate_name": "Fondue",
+      "item_count": 2,
+      "item_info": [
+        {
+          "item_id": "21990235115831",
+          "item_name": "Fondue. (NÃO FAZEMOS ENTREGA DE FONDUE)",
+          "item_desc": "MORANGO, UVA, BANANA, MARSHMALLOW E GANACHE PRETO",
+          "item_picture": "",
+          "cost_price": 0,
+          "selling_price": 5000,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$50,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 2,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235512095",
+          "cate_id": "21990235552767",
+          "quantity": 0,
+          "total_price": 5000,
+          "total_price_diy": "R$50,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 5000,
+          "final_price_diy": "R$50,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 10,
+          "create_time": 1785247192027,
+          "is_single_spec": 1,
+          "sale30D": 2,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990236380991",
+          "item_name": "COMBO (FONDUE+SMASH BACON+BATATA+BEBIDA) NÃO ENTREGAMOS",
+          "item_desc": "",
+          "item_picture": "",
+          "cost_price": 0,
+          "selling_price": 11990,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$119,90",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 2,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235982478",
+          "cate_id": "21990235552767",
+          "quantity": 0,
+          "total_price": 11990,
+          "total_price_diy": "R$119,90",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 11990,
+          "final_price_diy": "R$119,90",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 11,
+          "create_time": 1786837972598,
+          "is_single_spec": 1,
+          "sale30D": 0,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        }
+      ],
+      "ref_cate_id": ""
+    },
+    {
+      "tip": "",
+      "cate_id": "21990235651198",
+      "cate_name": "Açaí Gourmet",
+      "item_count": 12,
+      "item_info": [
+        {
+          "item_id": "21990235247933",
+          "item_name": "Jd. Dom José - Ovomaltine",
+          "item_desc": "Esta delícia começa com um açaí de sabor autêntico e rico, cuidadosamente adornado com uma generosa camada de leite condensado, conferindo uma doçura equilibrada. A borda interna de cada tigela é artisticamente revestida com um creme de Ovomaltine, que adiciona uma textura crocante irresistível. Para finalizar, uma dupla cobertura de Ovomaltine, tanto em pó quanto em creme, é habilmente espalhada por cima, criando uma mistura de sabores e texturas que irá encantar o seu paladar. Este prato é uma verdadeira indulgência e uma experiência gourmet que você não vai querer perder.\nAcai Açaí Açaís - Açai com Ovomaltine",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785247815520-80f45e92-ee7d-46bc-9112-e9a0e20eacdd.png",
+          "cost_price": 0,
+          "selling_price": 2500,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$25,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235572711",
+          "cate_id": "21990235651198",
+          "quantity": 0,
+          "total_price": 2500,
+          "total_price_diy": "R$25,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 2500,
+          "final_price_diy": "R$25,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 11,
+          "create_time": 1785247192030,
+          "is_single_spec": 1,
+          "sale30D": 44,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235305738",
+          "item_name": "Vale Velho - Oreo",
+          "item_desc": "Nosso Cremoso Açaí fresco, cremosamente misturado com creme de leite em pó, elevando o sabor a um novo patamar. No coração do prato, encontramos a irresistível bolacha Oreo, triturada e entrelaçada ao açaí. A finalização fica por conta de uma generosa cobertura de Chantilly, que adiciona uma textura suave e doce, e mais bolacha Oreo, criando um contraste crocante. Para tornar a experiência ainda mais deliciosa, este prato é acompanhado pelo icônico Bis Oreo. Uma experiência gourmet que promete seduzir o paladar.\nAcai Açaí Açaís - Açai com Oreo",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785247848629-e555b856-cc92-4e1d-8b62-8021bd63962e.png",
+          "cost_price": 0,
+          "selling_price": 2500,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$25,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235155011",
+          "cate_id": "21990235651198",
+          "quantity": 0,
+          "total_price": 2500,
+          "total_price_diy": "R$25,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 2500,
+          "final_price_diy": "R$25,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 12,
+          "create_time": 1785247192035,
+          "is_single_spec": 1,
+          "sale30D": 1,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235189781",
+          "item_name": "Jardim das Rosas - Kit Kat",
+          "item_desc": "Este prato é uma combinação harmoniosa de açaí cremoso e riquíssimo leite condensado, acompanhado de uma borda interna generosamente revestida com creme de Kitkat. A coroação do prato é uma cobertura de creme de Kitkat e leite condensado, deliciosamente adocicada. Para completar a experiência, acompanha dois palitos de Kitkat, oferecendo um contraste crocante. Um prato que promete uma viagem de sabores inesquecível. Acai Açaí Açaís - Açai com Kitkat",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785249216838-65710da0-d301-445c-a148-1cd789b5ce47.png",
+          "cost_price": 0,
+          "selling_price": 2500,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$25,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235190297",
+          "cate_id": "21990235651198",
+          "quantity": 0,
+          "total_price": 2500,
+          "total_price_diy": "R$25,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 2500,
+          "final_price_diy": "R$25,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 13,
+          "create_time": 1785247192039,
+          "is_single_spec": 1,
+          "sale30D": 10,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235228037",
+          "item_name": "Pq. Fernanda - Nutella c/ Amendoim",
+          "item_desc": "Este deleite é uma combinação esplêndida de açaí autêntico, generosamente coberto com leite condensado doce e cremoso. Apresenta uma borda deliciosamente espessa de Nutella, com uma surpresa interior de amendoim crocante. A cereja do bolo é a cobertura final de Nutella e amendoim, adicionando uma camada adicional de sabor irresistível. Para completar a experiência gastronômica, o prato é acompanhado por um chocolate Snickers. Uma indulgência verdadeiramente decadente e irresistível que promete satisfazer todos os seus desejos doces. Acai Açaí Açaís",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785249317920-ea2bf27a-649b-4ef7-be73-b98e6dace58c.png",
+          "cost_price": 0,
+          "selling_price": 2500,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$25,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235210073",
+          "cate_id": "21990235651198",
+          "quantity": 0,
+          "total_price": 2500,
+          "total_price_diy": "R$25,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 2500,
+          "final_price_diy": "R$25,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 14,
+          "create_time": 1785247192043,
+          "is_single_spec": 1,
+          "sale30D": 79,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235651202",
+          "item_name": "Pq. Independencia - Chocoball c/ Laka",
+          "item_desc": "Unimos a cremosidade do açaí, com o doce envolvente do leite condensado. A borda interna é generosamente recheada com o irresistível Laka, proporcionando uma explosão de sabor. Acrescentamos, ainda, o rico recheio de Chocoball, que traz uma surpresa crocante a cada colherada. Finalizamos com o recheio Galak/Galak Negresco, um contraste perfeito de sabores cremosos que vai te encantar. Uma combinação perfeita para os amantes de açaí e chocolate branco.",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785249384565-2ed8c9e2-94a8-4422-b48e-e90c9e2fcfff.png",
+          "cost_price": 0,
+          "selling_price": 2500,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$25,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235116455",
+          "cate_id": "21990235651198",
+          "quantity": 0,
+          "total_price": 2500,
+          "total_price_diy": "R$25,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 2500,
+          "final_price_diy": "R$25,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 15,
+          "create_time": 1785247192048,
+          "is_single_spec": 1,
+          "sale30D": 6,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235209409",
+          "item_name": "Santo Eduardo - M&M",
+          "item_desc": "Este deleite é uma combinação exuberante de açaí rico e cremoso, suavemente misturado com o doce leite condensado. Uma borda interna generosamente revestida de Nutella adiciona uma dimensão indulgente a cada colherada. Para um toque final, uma cobertura luxuosa de Nutella e M&M's coloridos é espalhada por cima, criando uma mistura de cores e sabores inesquecíveis. Um prato verdadeiramente celestial. Acai Açaí Açaís",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785249601531-50f4f1db-8fd4-4fd7-b364-ae17b9f0dc2b.png",
+          "cost_price": 0,
+          "selling_price": 2500,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$25,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235472671",
+          "cate_id": "21990235651198",
+          "quantity": 0,
+          "total_price": 2500,
+          "total_price_diy": "R$25,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 2500,
+          "final_price_diy": "R$25,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 16,
+          "create_time": 1785247192052,
+          "is_single_spec": 1,
+          "sale30D": 63,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235189785",
+          "item_name": "Jd. Mitsutani - Paçoca",
+          "item_desc": "Este prato é uma combinação perfeita de Açaí cremoso e fresco, realçado com um toque generoso de leite condensado para um sabor adocicado e único. Acrescentamos nosso creme de amendoim caseiro, feito a partir de amendoim selecionado e leite condensado de alta qualidade, para proporcionar uma textura rica e surpreendente. A paçoca adiciona uma camada de sabor autêntico e caseiro ao prato. Finalizamos com uma borda interna de Nutella, envolvendo todo o conteúdo em uma camada de puro prazer de chocolate e avelã. Esta é uma experiência de sabor que você não vai querer perder. Acai Açaí Açaís",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785249660228-90abd287-c26d-4e69-82da-dc2e6c0e8389.png",
+          "cost_price": 0,
+          "selling_price": 2500,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$25,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235096043",
+          "cate_id": "21990235651198",
+          "quantity": 0,
+          "total_price": 2500,
+          "total_price_diy": "R$25,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 2500,
+          "final_price_diy": "R$25,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 17,
+          "create_time": 1785247192054,
+          "is_single_spec": 1,
+          "sale30D": 13,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235076187",
+          "item_name": "Pq. Santo Antonio - Nutella C/ Fruta",
+          "item_desc": "Este prato é uma mescla harmoniosa de açaí fresco e autêntico, delicadamente adoçado com leite condensado para obter a cremosidade perfeita. Acrescentamos uma generosa camada de Nutella, que envolve o açaí com seu sabor irresistível de chocolate e avelã. Para completar, uma fruta de sua preferência adiciona um toque pessoal, transformando cada colherada em uma experiência única e refrescante. Uma combinação perfeita que realça e valoriza a riqueza de sabores.",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785249723018-dce75bb5-5e9f-441c-a3ec-19fc3fd3567c.png",
+          "cost_price": 0,
+          "selling_price": 2500,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$25,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235076711",
+          "cate_id": "21990235651198",
+          "quantity": 0,
+          "total_price": 2500,
+          "total_price_diy": "R$25,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 2500,
+          "final_price_diy": "R$25,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 18,
+          "create_time": 1785247192056,
+          "is_single_spec": 1,
+          "sale30D": 98,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235095411",
+          "item_name": "Jd. Guarujá - Mousse de Maracujá",
+          "item_desc": "Essa delícia começa com uma irresistível borda de Nutella, cuidadosamente aplicada ao redor da tigela, criando uma primeira camada de puro prazer. Em seguida, uma fina cascata de leite condensado é adicionada, trazendo uma doçura cremosa que prepara o paladar para o próximo nível. O açaí, encorpado e geladinho, entra como protagonista com seu sabor autêntico e refrescante. Para finalizar essa combinação perfeita, uma generosa porção de mousse de maracujá é delicadamente colocada por cima, trazendo leveza e um toque cítrico que contrasta com perfeição. E, para fechar com chave de ouro, mais Nutella é adicionada no topo, criando camadas de sabor que se misturam a cada colherada. Uma explosão de texturas e sabores que transforma essa tigela em uma verdadeira experiência gourmet — irresistível do início ao fim.",
+          "item_picture": "",
+          "cost_price": 0,
+          "selling_price": 2500,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$25,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235472695",
+          "cate_id": "21990235651198",
+          "quantity": 0,
+          "total_price": 2500,
+          "total_price_diy": "R$25,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 2500,
+          "final_price_diy": "R$25,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 20,
+          "create_time": 1785247192060,
+          "is_single_spec": 1,
+          "sale30D": 67,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235552771",
+          "item_name": "Cohab - Doce de leite",
+          "item_desc": "Essa delícia começa com uma envolvente borda de doce de leite, que reveste o interior do copo com cremosidade e sabor marcante. Logo depois, uma generosa camada de leite condensado é adicionada, trazendo uma doçura suave e equilibrada que prepara o paladar para o açaí — denso, gelado e cheio de sabor. No topo, uma finalização irresistível: mais doce de leite escorrendo delicadamente, acompanhado de uma generosa porção de bolacha maisena triturada, que adiciona crocância. Uma combinação perfeita de texturas e sabores que vai conquistar você desde a primeira colherada. Uma verdadeira explosão de prazer em cada detalhe.",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785249924672-5002fb48-58ba-4354-810c-8c2d1b19cddb.png",
+          "cost_price": 0,
+          "selling_price": 2500,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$25,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235553303",
+          "cate_id": "21990235651198",
+          "quantity": 0,
+          "total_price": 2500,
+          "total_price_diy": "R$25,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 2500,
+          "final_price_diy": "R$25,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 21,
+          "create_time": 1785247192062,
+          "is_single_spec": 1,
+          "sale30D": 3,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235115835",
+          "item_name": "Multirão - Nutella C/ Galak Negresco",
+          "item_desc": "Tudo começa com uma irresistível borda meio a meio de Nutella e creme Galak, que cobre o interior do copo com uma combinação perfeita entre o sabor intenso do chocolate e a suavidade do creme branco. Em seguida, entra uma generosa camada de leite condensado, garantindo um toque doce e cremoso na medida certa. O açaí é servido logo após, com sua textura encorpada e refrescante, trazendo equilíbrio à composição. No topo, o espetáculo continua com uma cobertura meio a meio de Nutella e creme Galak, harmoniosamente distribuídos, criando uma explosão de sabores. Para completar essa experiência única, um delicioso chocolate Ouro Branco é adicionado, oferecendo uma crocância e um sabor inconfundível. Uma combinação sofisticada e surpreendente que vai conquistar seu paladar desde a primeira colherada.",
+          "item_picture": "",
+          "cost_price": 0,
+          "selling_price": 2500,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$25,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235651483",
+          "cate_id": "21990235651198",
+          "quantity": 0,
+          "total_price": 2500,
+          "total_price_diy": "R$25,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 2500,
+          "final_price_diy": "R$25,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 22,
+          "create_time": 1785247192064,
+          "is_single_spec": 1,
+          "sale30D": 10,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235581953",
+          "item_name": "Açaí do Amor",
+          "item_desc": "Açaí, leite condensado, cobertura Ninho, geleia artesanal de morango.",
+          "item_picture": "",
+          "cost_price": 0,
+          "selling_price": 2500,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$25,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235205732",
+          "cate_id": "21990235651198",
+          "quantity": 0,
+          "total_price": 2500,
+          "total_price_diy": "R$25,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 2500,
+          "final_price_diy": "R$25,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 24,
+          "create_time": 1785627654061,
+          "is_single_spec": 0,
+          "sale30D": 6,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        }
+      ],
+      "ref_cate_id": ""
+    },
+    {
+      "tip": "",
+      "cate_id": "21990235228029",
+      "cate_name": "Monte o seu Açaí",
+      "item_count": 1,
+      "item_info": [
+        {
+          "item_id": "21990235655938",
+          "item_name": "Monte o seu Açaí",
+          "item_desc": "Você pode escolher até 3 ingredientes.",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785424569378-68b07041-c01c-4ed6-9095-b06b27115121.png",
+          "cost_price": 0,
+          "selling_price": 2200,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$22,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235458721",
+          "cate_id": "21990235228029",
+          "quantity": 0,
+          "total_price": 2200,
+          "total_price_diy": "R$22,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 2200,
+          "final_price_diy": "R$22,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 1,
+          "create_time": 1785424643471,
+          "is_single_spec": 0,
+          "sale30D": 239,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        }
+      ],
+      "ref_cate_id": ""
+    },
+    {
+      "tip": "",
+      "cate_id": "21990235512091",
+      "cate_name": "Açaí Tradicional",
+      "item_count": 2,
+      "item_info": [
+        {
+          "item_id": "21990235125290",
+          "item_name": "AÇAÍ/CUPUAÇU DE QUEBRADA",
+          "item_desc": "Açaí e leite condensado.",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785250280102-c0b208a1-ca19-431b-81f7-816890af69be.png",
+          "cost_price": 0,
+          "selling_price": 1000,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$10,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235592951",
+          "cate_id": "21990235512091",
+          "quantity": 0,
+          "total_price": 1000,
+          "total_price_diy": "R$10,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 1000,
+          "final_price_diy": "R$10,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 23,
+          "create_time": 1785247192001,
+          "is_single_spec": 1,
+          "sale30D": 134,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235044407",
+          "item_name": "Jd. Irene (frutas, granola, leite em pó)",
+          "item_desc": "Açaí, leite condensado, leite em pó, duas frutas de sua escolha, e granola \nOBS ESTAMOS SEM GRANOLA, PODE COLOCAAR SUCRILHOS ? SE SIM  AVISAR NA OBS DO PEDIDO)",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785250491848-b0e9c1d8-c405-4293-86d2-e69ca9ab23aa.png",
+          "cost_price": 0,
+          "selling_price": 2000,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$20,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235306086",
+          "cate_id": "21990235512091",
+          "quantity": 0,
+          "total_price": 2000,
+          "total_price_diy": "R$20,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 2000,
+          "final_price_diy": "R$20,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 24,
+          "create_time": 1785247192065,
+          "is_single_spec": 1,
+          "sale30D": 212,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        }
+      ],
+      "ref_cate_id": ""
+    },
+    {
+      "tip": "",
+      "cate_id": "21990235155510",
+      "cate_name": "Hot Dogs",
+      "item_count": 2,
+      "item_info": [
+        {
+          "item_id": "21990235187479",
+          "item_name": "Hot Dog Simples",
+          "item_desc": "Pão de hot dog, salsicha, milho, maionese, Ketchup, mostarda, purê caseiro e batata palha.",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785255061835-1d1a6684-3b56-4539-a145-93b04dd03860.png",
+          "cost_price": 0,
+          "selling_price": 1200,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$12,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235512099",
+          "cate_id": "21990235155510",
+          "quantity": 0,
+          "total_price": 1200,
+          "total_price_diy": "R$12,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 1200,
+          "final_price_diy": "R$12,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 26,
+          "create_time": 1785247192067,
+          "is_single_spec": 1,
+          "sale30D": 42,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235056851",
+          "item_name": "Hot Dog Completo",
+          "item_desc": "Pão de hot dog, 2 salsichas, milho, maionese, ketchup, mostarda, purê caseiro, batata palha, molho cheddar e bacon.",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785255243359-f0afcead-54c5-4a7d-a889-7efaf8c174ca.png",
+          "cost_price": 0,
+          "selling_price": 1600,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$16,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235189777",
+          "cate_id": "21990235155510",
+          "quantity": 0,
+          "total_price": 1600,
+          "total_price_diy": "R$16,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 1600,
+          "final_price_diy": "R$16,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 27,
+          "create_time": 1785247192005,
+          "is_single_spec": 1,
+          "sale30D": 151,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        }
+      ],
+      "ref_cate_id": ""
+    },
+    {
+      "tip": "",
+      "cate_id": "21990235044399",
+      "cate_name": "Entradas",
+      "item_count": 4,
+      "item_info": [
+        {
+          "item_id": "21990235168586",
+          "item_name": "Batata Frita",
+          "item_desc": "Batata frita palito tradicional aproximadamente 270g (com sal, páprica ou lemon pepper)",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785255396139-605db183-4ebc-43b8-92ec-8b511c4ef17f.png",
+          "cost_price": 0,
+          "selling_price": 2000,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$20,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235532555",
+          "cate_id": "21990235044399",
+          "quantity": 0,
+          "total_price": 2000,
+          "total_price_diy": "R$20,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 2000,
+          "final_price_diy": "R$20,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 28,
+          "create_time": 1785247192069,
+          "is_single_spec": 1,
+          "sale30D": 38,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235247941",
+          "item_name": "Nuggets",
+          "item_desc": "Porção de nuggets. 10 unidades (acompanha barbecue)",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785255555425-9dea3ac4-74da-4464-be75-f43d19d6ddbb.png",
+          "cost_price": 0,
+          "selling_price": 1800,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$18,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235056859",
+          "cate_id": "21990235044399",
+          "quantity": 0,
+          "total_price": 1800,
+          "total_price_diy": "R$18,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 1800,
+          "final_price_diy": "R$18,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 29,
+          "create_time": 1785247192071,
+          "is_single_spec": 1,
+          "sale30D": 4,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235651203",
+          "item_name": "Batata frita, molho cheddar e bacon",
+          "item_desc": "Batata palito aprox 270g, molho cheddar e bacon.",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785255628235-feeb4645-22c6-40ac-b16f-549cbaabf2eb.png",
+          "cost_price": 0,
+          "selling_price": 2500,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$25,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235263869",
+          "cate_id": "21990235044399",
+          "quantity": 0,
+          "total_price": 2500,
+          "total_price_diy": "R$25,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 2500,
+          "final_price_diy": "R$25,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 30,
+          "create_time": 1785247192072,
+          "is_single_spec": 1,
+          "sale30D": 109,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235170281",
+          "item_name": "Onios Rings",
+          "item_desc": "10 unidade de anéis de cebola empanado (acompanha barbecue)",
+          "item_picture": "",
+          "cost_price": 0,
+          "selling_price": 1700,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$17,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235138430",
+          "cate_id": "21990235044399",
+          "quantity": 0,
+          "total_price": 1700,
+          "total_price_diy": "R$17,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 1700,
+          "final_price_diy": "R$17,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 31,
+          "create_time": 1785247192074,
+          "is_single_spec": 1,
+          "sale30D": 0,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        }
+      ],
+      "ref_cate_id": ""
+    },
+    {
+      "tip": "",
+      "cate_id": "21990235138422",
+      "cate_name": "Combo De Hambúrguer (Batata + Refri)",
+      "item_count": 2,
+      "item_info": [
+        {
+          "item_id": "21990235472111",
+          "item_name": "Combo Adulto",
+          "item_desc": "Aproximadamente 150g de batata frita palito+um refri 350ml",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785255717218-d56176ee-0323-4731-9738-96f68cdd072d.png",
+          "cost_price": 0,
+          "selling_price": 1800,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$18,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235612147",
+          "cate_id": "21990235138422",
+          "quantity": 0,
+          "total_price": 1800,
+          "total_price_diy": "R$18,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 1800,
+          "final_price_diy": "R$18,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 32,
+          "create_time": 1785247192076,
+          "is_single_spec": 1,
+          "sale30D": 14,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235115839",
+          "item_name": "Combo Mirim",
+          "item_desc": "batata palito aproximadamente 100g e refrigerante 200ml",
+          "item_picture": "",
+          "cost_price": 0,
+          "selling_price": 1500,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$15,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235452847",
+          "cate_id": "21990235138422",
+          "quantity": 0,
+          "total_price": 1500,
+          "total_price_diy": "R$15,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 1500,
+          "final_price_diy": "R$15,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 33,
+          "create_time": 1785247191958,
+          "is_single_spec": 1,
+          "sale30D": 6,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        }
+      ],
+      "ref_cate_id": ""
+    },
+    {
+      "tip": "",
+      "cate_id": "21990235135227",
+      "cate_name": "Sorvete SARAVETE",
+      "item_count": 10,
+      "item_info": [
+        {
+          "item_id": "21990235076191",
+          "item_name": "PICOLE DE FRUTAS/AO LEITE",
+          "item_desc": "DIVERSOS SABORES COMO MILHO VERDE, MORANGO, CHOCOLATE, UVA, AÇAÍ (VERIFICAR DISPONIBILIDADE)",
+          "item_picture": "",
+          "cost_price": 0,
+          "selling_price": 350,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$3,50",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 2,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235170285",
+          "cate_id": "21990235135227",
+          "quantity": 0,
+          "total_price": 350,
+          "total_price_diy": "R$3,50",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 350,
+          "final_price_diy": "R$3,50",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 42,
+          "create_time": 1785247191982,
+          "is_single_spec": 1,
+          "sale30D": 23,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235472115",
+          "item_name": "SARACONE",
+          "item_desc": "CHOCOLATE OU CREME (VERIFICAR DISPONIBILIDADE)",
+          "item_picture": "",
+          "cost_price": 900,
+          "selling_price": 900,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$9,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 2,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235592371",
+          "cate_id": "21990235135227",
+          "quantity": 0,
+          "total_price": 900,
+          "total_price_diy": "R$9,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 900,
+          "final_price_diy": "R$9,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 43,
+          "create_time": 1785247191984,
+          "is_single_spec": 1,
+          "sale30D": 2,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235189789",
+          "item_name": "SKIMO",
+          "item_desc": "BRIGADEIRO, CREME, MORANGO E COCO (VERIFICAR DISPONIBILIDADE)",
+          "item_picture": "",
+          "cost_price": 700,
+          "selling_price": 700,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$7,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 2,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235651206",
+          "cate_id": "21990235135227",
+          "quantity": 0,
+          "total_price": 700,
+          "total_price_diy": "R$7,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 700,
+          "final_price_diy": "R$7,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 44,
+          "create_time": 1785247191986,
+          "is_single_spec": 1,
+          "sale30D": 6,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235491831",
+          "item_name": "LINHA ESPECIAL",
+          "item_desc": "TORTA DE LIMÃO, OURO BRANCO, OURO PRETO E TRUFADO (VERIFICAR DISPONIBILIDADE)",
+          "item_picture": "",
+          "cost_price": 1100,
+          "selling_price": 1100,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$11,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 2,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235263873",
+          "cate_id": "21990235135227",
+          "quantity": 0,
+          "total_price": 1100,
+          "total_price_diy": "R$11,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 1100,
+          "final_price_diy": "R$11,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 45,
+          "create_time": 1785247191988,
+          "is_single_spec": 1,
+          "sale30D": 9,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235305744",
+          "item_name": "COPÃO 350ML",
+          "item_desc": "CHOCOLATE, FLOCOS, MILHO VERDE, MORANGO E NAPOLITANO (VERIFICAR DISPONIBILIDADE)",
+          "item_picture": "",
+          "cost_price": 700,
+          "selling_price": 700,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$7,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 2,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235168590",
+          "cate_id": "21990235135227",
+          "quantity": 0,
+          "total_price": 700,
+          "total_price_diy": "R$7,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 700,
+          "final_price_diy": "R$7,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 46,
+          "create_time": 1785247191990,
+          "is_single_spec": 1,
+          "sale30D": 8,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235472119",
+          "item_name": "COPINHO 175ML",
+          "item_desc": "FLOCOS, MILHO VERDE, MORANGO E NAPOLITANO (VERIFICA DISPONIBILIDADE)",
+          "item_picture": "",
+          "cost_price": 550,
+          "selling_price": 550,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$5,50",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 2,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235115847",
+          "cate_id": "21990235135227",
+          "quantity": 0,
+          "total_price": 550,
+          "total_price_diy": "R$5,50",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 550,
+          "final_price_diy": "R$5,50",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 47,
+          "create_time": 1785247191991,
+          "is_single_spec": 1,
+          "sale30D": 7,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235154519",
+          "item_name": "POTE DE 2 LITRO",
+          "item_desc": "CHOCOLATE, FLOCOS, NAPOLITANO E COCO (VERIFICAR DISPONIBILIDADE)",
+          "item_picture": "",
+          "cost_price": 2800,
+          "selling_price": 2800,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$28,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 2,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235209417",
+          "cate_id": "21990235135227",
+          "quantity": 0,
+          "total_price": 2800,
+          "total_price_diy": "R$28,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 2800,
+          "final_price_diy": "R$28,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 48,
+          "create_time": 1785247191995,
+          "is_single_spec": 1,
+          "sale30D": 1,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235187487",
+          "item_name": "NINHO TRUFADO 1,5L",
+          "item_desc": "VERIFICAR DISPONIBILIDADE DE SABOR",
+          "item_picture": "",
+          "cost_price": 3200,
+          "selling_price": 3200,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$32,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 2,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235170289",
+          "cate_id": "21990235135227",
+          "quantity": 0,
+          "total_price": 3200,
+          "total_price_diy": "R$32,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 3200,
+          "final_price_diy": "R$32,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 49,
+          "create_time": 1785247191999,
+          "is_single_spec": 1,
+          "sale30D": 0,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235612155",
+          "item_name": "PALETA MEXICANA",
+          "item_desc": "VERIFICAR DISPONIBILIDADE DE SABORES",
+          "item_picture": "",
+          "cost_price": 1200,
+          "selling_price": 1200,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$12,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 2,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235155514",
+          "cate_id": "21990235135227",
+          "quantity": 0,
+          "total_price": 1200,
+          "total_price_diy": "R$12,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 1200,
+          "final_price_diy": "R$12,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 50,
+          "create_time": 1785247192003,
+          "is_single_spec": 1,
+          "sale30D": 7,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235138438",
+          "item_name": "SUNDUE",
+          "item_desc": "",
+          "item_picture": "",
+          "cost_price": 900,
+          "selling_price": 900,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$9,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 2,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235187491",
+          "cate_id": "21990235135227",
+          "quantity": 0,
+          "total_price": 900,
+          "total_price_diy": "R$9,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 900,
+          "final_price_diy": "R$9,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 51,
+          "create_time": 1785247192007,
+          "is_single_spec": 1,
+          "sale30D": 1,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        }
+      ],
+      "ref_cate_id": ""
+    },
+    {
+      "tip": "",
+      "cate_id": "21990235187471",
+      "cate_name": "Taça de Sorvetes (INDISPONÍVEL P/ VIAGEM)",
+      "item_count": 2,
+      "item_info": [
+        {
+          "item_id": "21990235512103",
+          "item_name": "Copo de Sorvete Mirim 250ML",
+          "item_desc": "250ML de sorvete de massa (verificar disponibilidade) borda de nutella, chantilly, granulado, canudo de chocolate e uma cobertura (verificar disponibilidade)",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785257539108-2e1df4d5-588c-4fb1-8ed0-c2ea42d0c981.png",
+          "cost_price": 0,
+          "selling_price": 1500,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$15,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235572175",
+          "cate_id": "21990235187471",
+          "quantity": 0,
+          "total_price": 1500,
+          "total_price_diy": "R$15,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 1500,
+          "final_price_diy": "R$15,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 54,
+          "create_time": 1785247192021,
+          "is_single_spec": 1,
+          "sale30D": 10,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235209421",
+          "item_name": "Taça Adulto",
+          "item_desc": "Copo de 350ml com sorvete (verificar disponibilidade) borda de nutella, chantilly, canudo de chocolate e uma cobertura (verificar disponibilidade)",
+          "item_picture": "",
+          "cost_price": 0,
+          "selling_price": 2800,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$28,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235263877",
+          "cate_id": "21990235187471",
+          "quantity": 0,
+          "total_price": 2800,
+          "total_price_diy": "R$28,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 2800,
+          "final_price_diy": "R$28,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 55,
+          "create_time": 1785247192023,
+          "is_single_spec": 1,
+          "sale30D": 4,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        }
+      ],
+      "ref_cate_id": ""
+    },
+    {
+      "tip": "",
+      "cate_id": "21990235472103",
+      "cate_name": "Barca (INDISPONÍVEL P/ ENTREGA)",
+      "item_count": 2,
+      "item_info": [
+        {
+          "item_id": "21990235532563",
+          "item_name": "Barca de 500ML",
+          "item_desc": "Monte sua barca.",
+          "item_picture": "",
+          "cost_price": 0,
+          "selling_price": 4000,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$40,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235552779",
+          "cate_id": "21990235472103",
+          "quantity": 0,
+          "total_price": 4000,
+          "total_price_diy": "R$40,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 4000,
+          "final_price_diy": "R$40,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 52,
+          "create_time": 1785247192011,
+          "is_single_spec": 1,
+          "sale30D": 16,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235189793",
+          "item_name": "BARCA DE 1L",
+          "item_desc": "1L",
+          "item_picture": "",
+          "cost_price": 0,
+          "selling_price": 7500,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$75,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235154523",
+          "cate_id": "21990235472103",
+          "quantity": 0,
+          "total_price": 7500,
+          "total_price_diy": "R$75,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 7500,
+          "final_price_diy": "R$75,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 53,
+          "create_time": 1785247192047,
+          "is_single_spec": 1,
+          "sale30D": 12,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        }
+      ],
+      "ref_cate_id": ""
+    },
+    {
+      "tip": "",
+      "cate_id": "21990235259306",
+      "cate_name": "Hambugueres Artesanais",
+      "item_count": 6,
+      "item_info": [
+        {
+          "item_id": "21990235661110",
+          "item_name": "Da ponte pra cá",
+          "item_desc": "Pão com gergelim, hambuguer artesanal 145g, alface americana, cebola roxa, tomate, queijo prato, picle e maionese da casa.",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785629705566-420ee9be-d76d-44d4-b737-d595cf61214b.png",
+          "cost_price": 0,
+          "selling_price": 2900,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$29,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235255191",
+          "cate_id": "21990235259306",
+          "quantity": 0,
+          "total_price": 2900,
+          "total_price_diy": "R$29,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 2900,
+          "final_price_diy": "R$29,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 34,
+          "create_time": 1785629922490,
+          "is_single_spec": 1,
+          "sale30D": 26,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235333706",
+          "item_name": "Vila Fundão",
+          "item_desc": "Pão Brioche, hambuguer artesanal de 145g, bacon em tiras e maionese verde",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785631154514-a39b1bee-9f84-4405-a1fd-a1de62ffde5a.png",
+          "cost_price": 0,
+          "selling_price": 2900,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$29,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235337092",
+          "cate_id": "21990235259306",
+          "quantity": 0,
+          "total_price": 2900,
+          "total_price_diy": "R$29,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 2900,
+          "final_price_diy": "R$29,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 35,
+          "create_time": 1785631341788,
+          "is_single_spec": 1,
+          "sale30D": 30,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235297670",
+          "item_name": "Morro do S",
+          "item_desc": "Pão brioche, hambuguer artesanal de 145g, queijo cheddar laminado, 3 cebolas empanadas, molho barbecue.",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785631377877-e03bcb11-fee9-42b7-a2f6-07204401e5aa.png",
+          "cost_price": 0,
+          "selling_price": 3100,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$31,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235541929",
+          "cate_id": "21990235259306",
+          "quantity": 0,
+          "total_price": 3100,
+          "total_price_diy": "R$31,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 3100,
+          "final_price_diy": "R$31,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 36,
+          "create_time": 1785631571474,
+          "is_single_spec": 1,
+          "sale30D": 9,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235598785",
+          "item_name": "Do Parque",
+          "item_desc": "Pão brioche, duas carnes artesanais de 145g, queijo cheddar laminado, cebola roxa, tomate, alface, picles, maionese verde.",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785631722960-597eee54-e0ec-4f1d-9ca3-be92e7144ac2.png",
+          "cost_price": 0,
+          "selling_price": 3900,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$39,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235521629",
+          "cate_id": "21990235259306",
+          "quantity": 0,
+          "total_price": 3900,
+          "total_price_diy": "R$39,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 3900,
+          "final_price_diy": "R$39,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 37,
+          "create_time": 1785632040549,
+          "is_single_spec": 1,
+          "sale30D": 35,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235239218",
+          "item_name": "Mboi",
+          "item_desc": "Pão brioche, hambuguer artesanal de 145g, requeijão cremoso, cebola crysp, e farofa de bacon.",
+          "item_picture": "",
+          "cost_price": 0,
+          "selling_price": 3300,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$33,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235641749",
+          "cate_id": "21990235259306",
+          "quantity": 0,
+          "total_price": 3300,
+          "total_price_diy": "R$33,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 3300,
+          "final_price_diy": "R$33,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 38,
+          "create_time": 1785632393532,
+          "is_single_spec": 1,
+          "sale30D": 4,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235562273",
+          "item_name": "Itapecerica",
+          "item_desc": "Pão brioche, hambuguer artesanal 145g, queijo mussarela empanado, alface e tomate. Finalizado com molho da casa.",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785633125846-e1a5a8a0-0f3a-4c7a-8baa-9e83fe3f4f54.png",
+          "cost_price": 0,
+          "selling_price": 3800,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$38,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235225015",
+          "cate_id": "21990235259306",
+          "quantity": 0,
+          "total_price": 3800,
+          "total_price_diy": "R$38,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 3800,
+          "final_price_diy": "R$38,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 41,
+          "create_time": 1785633775514,
+          "is_single_spec": 1,
+          "sale30D": 14,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        }
+      ],
+      "ref_cate_id": ""
+    },
+    {
+      "tip": "",
+      "cate_id": "21990235491823",
+      "cate_name": "Bebidas de açaí",
+      "item_count": 2,
+      "item_info": [
+        {
+          "item_id": "21990235491839",
+          "item_name": "Suco de açaí",
+          "item_desc": "Açaí, leite condensado e água. (tudo batido)",
+          "item_picture": "",
+          "cost_price": 0,
+          "selling_price": 2000,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$20,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235228041",
+          "cate_id": "21990235491823",
+          "quantity": 0,
+          "total_price": 2000,
+          "total_price_diy": "R$20,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 2000,
+          "final_price_diy": "R$20,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 61,
+          "create_time": 1785247192040,
+          "is_single_spec": 1,
+          "sale30D": 13,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235612163",
+          "item_name": "Batida de açaí (Alcoólicos)",
+          "item_desc": "Açaí, água, leite condensado e vodka orloff",
+          "item_picture": "",
+          "cost_price": 0,
+          "selling_price": 2300,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$23,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235572179",
+          "cate_id": "21990235491823",
+          "quantity": 0,
+          "total_price": 2300,
+          "total_price_diy": "R$23,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 2300,
+          "final_price_diy": "R$23,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 63,
+          "create_time": 1785247192050,
+          "is_single_spec": 1,
+          "sale30D": 4,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        }
+      ],
+      "ref_cate_id": ""
+    },
+    {
+      "tip": "",
+      "cate_id": "21990235211045",
+      "cate_name": "ADICIONAS A PARTE (AÇAÍ)",
+      "item_count": 1,
+      "item_info": [
+        {
+          "item_id": "21990235613627",
+          "item_name": "ADICIONAIS AÇAÍ",
+          "item_desc": "",
+          "item_picture": "",
+          "cost_price": 0,
+          "selling_price": 0,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$0,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235513655",
+          "cate_id": "21990235211045",
+          "quantity": 0,
+          "total_price": 0,
+          "total_price_diy": "R$0,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 0,
+          "final_price_diy": "R$0,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 1,
+          "create_time": 1785258771649,
+          "is_single_spec": 1,
+          "sale30D": 17,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        }
+      ],
+      "ref_cate_id": ""
+    },
+    {
+      "tip": "",
+      "cate_id": "21990235076183",
+      "cate_name": "Milk Shake 400ml",
+      "item_count": 1,
+      "item_info": [
+        {
+          "item_id": "21990235076195",
+          "item_name": "Milk Shake 360ml.",
+          "item_desc": "",
+          "item_picture": "",
+          "cost_price": 0,
+          "selling_price": 1800,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$18,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235247945",
+          "cate_id": "21990235076183",
+          "quantity": 0,
+          "total_price": 1800,
+          "total_price_diy": "R$18,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 1800,
+          "final_price_diy": "R$18,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 56,
+          "create_time": 1785247192025,
+          "is_single_spec": 1,
+          "sale30D": 25,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        }
+      ],
+      "ref_cate_id": ""
+    },
+    {
+      "tip": "",
+      "cate_id": "21990235491819",
+      "cate_name": "Bebidas",
+      "item_count": 8,
+      "item_info": [
+        {
+          "item_id": "21990235125298",
+          "item_name": "Coca-Cola Original 350ml",
+          "item_desc": "Lata 350ml",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785256129431-7b2fba84-5570-4398-b24e-a5e0888f45e5.png",
+          "cost_price": 700,
+          "selling_price": 700,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$7,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 2,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235552775",
+          "cate_id": "21990235491819",
+          "quantity": 0,
+          "total_price": 700,
+          "total_price_diy": "R$7,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 700,
+          "final_price_diy": "R$7,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 34,
+          "create_time": 1785247191965,
+          "is_single_spec": 1,
+          "sale30D": 90,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235154515",
+          "item_name": "Refrigerante Fanta 350ml",
+          "item_desc": "Lata 350ml",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785256151408-8de9de7e-35e0-420e-88bd-d169226c4ba6.png",
+          "cost_price": 700,
+          "selling_price": 700,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$7,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 2,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235044411",
+          "cate_id": "21990235491819",
+          "quantity": 0,
+          "total_price": 700,
+          "total_price_diy": "R$7,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 700,
+          "final_price_diy": "R$7,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 35,
+          "create_time": 1785247191968,
+          "is_single_spec": 1,
+          "sale30D": 11,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235305742",
+          "item_name": "Refrigerante Guaraná Antarctica Lata 350ml",
+          "item_desc": "",
+          "item_picture": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785256175454-1732c45c-8583-401b-9108-0b708fd595c9.png",
+          "cost_price": 700,
+          "selling_price": 700,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$7,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 2,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235443904",
+          "cate_id": "21990235491819",
+          "quantity": 0,
+          "total_price": 700,
+          "total_price_diy": "R$7,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 700,
+          "final_price_diy": "R$7,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 36,
+          "create_time": 1785247191970,
+          "is_single_spec": 1,
+          "sale30D": 36,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235056863",
+          "item_name": "Coca Cola Zero",
+          "item_desc": "",
+          "item_picture": "",
+          "cost_price": 700,
+          "selling_price": 700,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$7,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 2,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235125302",
+          "cate_id": "21990235491819",
+          "quantity": 0,
+          "total_price": 700,
+          "total_price_diy": "R$7,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 700,
+          "final_price_diy": "R$7,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 37,
+          "create_time": 1785247191972,
+          "is_single_spec": 1,
+          "sale30D": 45,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235209413",
+          "item_name": "Dell Vale 350ml",
+          "item_desc": "",
+          "item_picture": "",
+          "cost_price": 800,
+          "selling_price": 800,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$8,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 2,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235187483",
+          "cate_id": "21990235491819",
+          "quantity": 0,
+          "total_price": 800,
+          "total_price_diy": "R$8,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 800,
+          "final_price_diy": "R$8,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 38,
+          "create_time": 1785247191974,
+          "is_single_spec": 1,
+          "sale30D": 8,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235115843",
+          "item_name": "Água",
+          "item_desc": "",
+          "item_picture": "",
+          "cost_price": 0,
+          "selling_price": 400,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$4,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 2,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235532559",
+          "cate_id": "21990235491819",
+          "quantity": 0,
+          "total_price": 400,
+          "total_price_diy": "R$4,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 400,
+          "final_price_diy": "R$4,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 39,
+          "create_time": 1785247191976,
+          "is_single_spec": 1,
+          "sale30D": 32,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235491827",
+          "item_name": "Água com gás",
+          "item_desc": "",
+          "item_picture": "",
+          "cost_price": 0,
+          "selling_price": 500,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$5,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 2,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235135239",
+          "cate_id": "21990235491819",
+          "quantity": 0,
+          "total_price": 500,
+          "total_price_diy": "R$5,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 500,
+          "final_price_diy": "R$5,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 40,
+          "create_time": 1785247191978,
+          "is_single_spec": 1,
+          "sale30D": 6,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        },
+        {
+          "item_id": "21990235138434",
+          "item_name": "Cerveja Original 269ml",
+          "item_desc": "",
+          "item_picture": "",
+          "cost_price": 650,
+          "selling_price": 650,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$6,50",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 2,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990235612151",
+          "cate_id": "21990235491819",
+          "quantity": 0,
+          "total_price": 650,
+          "total_price_diy": "R$6,50",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 650,
+          "final_price_diy": "R$6,50",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 41,
+          "create_time": 1785247191980,
+          "is_single_spec": 1,
+          "sale30D": 2,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        }
+      ],
+      "ref_cate_id": ""
+    },
+    {
+      "tip": "",
+      "cate_id": "21990238376777",
+      "cate_name": "SALADA DE FRUTA 300ML",
+      "item_count": 1,
+      "item_info": [
+        {
+          "item_id": "21990238181558",
+          "item_name": "SALADA DE FRUTA 300ML",
+          "item_desc": "ESCOLHA 3 FRUTAS DA SUA PREFERENCIA PARA COMPOR SUA SALADA DE FRUTA ",
+          "item_picture": "",
+          "cost_price": 0,
+          "selling_price": 1500,
+          "cost_price_diy": "",
+          "selling_price_diy": "R$15,00",
+          "stock": 99999,
+          "r_stock": 0,
+          "opt_button_type": 1,
+          "item_status": {
+            "status": 4
+          },
+          "item_type": 1,
+          "sku_id": "21990238288365",
+          "cate_id": "21990238376777",
+          "quantity": 0,
+          "total_price": 1500,
+          "total_price_diy": "R$15,00",
+          "discount_price": 0,
+          "discount_price_diy": "R$0,00",
+          "final_price": 1500,
+          "final_price_diy": "R$15,00",
+          "number": 0,
+          "discount": 0,
+          "sort_order": 1,
+          "create_time": 1790357614814,
+          "is_single_spec": 1,
+          "sale30D": 4,
+          "is_not_enough": false,
+          "tag": {
+            "code": 0,
+            "desc": "Não exibir rótulos",
+            "group_code": "ITEM_TAG_TYPE",
+            "l10n_key": "FSaaSC_Setting_fBum_CThZ"
+          },
+          "tag_type": 0
+        }
+      ],
+      "ref_cate_id": ""
+    }
+  ],
+  "alerts": null,
+  "task_reward_num": 0,
+  "meta_info": {
+    "org_id": "20030343600663935",
+    "tenant_id": "10020343600444167",
+    "store_id": "40000343600324763",
+    "city_id": "55000199",
+    "location_country": "BR",
+    "locale": "",
+    "latitude": -23.6717911,
+    "longitude": -46.787546,
+    "decoration_type": "Green",
+    "menu_setup": {
+      "allow_order_remark": true,
+      "allow_reorder": true,
+      "highlight_popular": true,
+      "show_sold_out": true,
+      "show_not_yet_on_sale": false,
+      "allow_disposable_utensils": false,
+      "boss_recommend": true
+    }
+  }
+}

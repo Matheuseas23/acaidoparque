@@ -1,0 +1,530 @@
+[
+  {
+    "cate_name": "Mais procurado",
+    "cate_id": "000000002",
+    "item_id": "21990235655938",
+    "item_name": "Monte o seu Açaí",
+    "price": "R$22,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785424569378-68b07041-c01c-4ed6-9095-b06b27115121.png"
+  },
+  {
+    "cate_name": "Mais procurado",
+    "cate_id": "000000002",
+    "item_id": "21990235044407",
+    "item_name": "Jd. Irene (frutas, granola, leite em pó)",
+    "price": "R$20,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785250491848-b0e9c1d8-c405-4293-86d2-e69ca9ab23aa.png"
+  },
+  {
+    "cate_name": "Mais procurado",
+    "cate_id": "000000002",
+    "item_id": "21990235056851",
+    "item_name": "Hot Dog Completo",
+    "price": "R$16,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785255243359-f0afcead-54c5-4a7d-a889-7efaf8c174ca.png"
+  },
+  {
+    "cate_name": "Mais procurado",
+    "cate_id": "000000002",
+    "item_id": "21990235125290",
+    "item_name": "AÇAÍ/CUPUAÇU DE QUEBRADA",
+    "price": "R$10,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785250280102-c0b208a1-ca19-431b-81f7-816890af69be.png"
+  },
+  {
+    "cate_name": "Mais procurado",
+    "cate_id": "000000002",
+    "item_id": "21990235651203",
+    "item_name": "Batata frita, molho cheddar e bacon",
+    "price": "R$25,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785255628235-feeb4645-22c6-40ac-b16f-549cbaabf2eb.png"
+  },
+  {
+    "cate_name": "Mais procurado",
+    "cate_id": "000000002",
+    "item_id": "21990235076187",
+    "item_name": "Pq. Santo Antonio - Nutella C/ Fruta",
+    "price": "R$25,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785249723018-dce75bb5-5e9f-441c-a3ec-19fc3fd3567c.png"
+  },
+  {
+    "cate_name": "Mais procurado",
+    "cate_id": "000000002",
+    "item_id": "21990235125298",
+    "item_name": "Coca-Cola Original 350ml",
+    "price": "R$7,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785256129431-7b2fba84-5570-4398-b24e-a5e0888f45e5.png"
+  },
+  {
+    "cate_name": "Mais procurado",
+    "cate_id": "000000002",
+    "item_id": "21990235228037",
+    "item_name": "Pq. Fernanda - Nutella c/ Amendoim",
+    "price": "R$25,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785249317920-ea2bf27a-649b-4ef7-be73-b98e6dace58c.png"
+  },
+  {
+    "cate_name": "Fondue",
+    "cate_id": "21990235552767",
+    "item_id": "21990235115831",
+    "item_name": "Fondue. (NÃO FAZEMOS ENTREGA DE FONDUE)",
+    "price": "R$50,00",
+    "image": ""
+  },
+  {
+    "cate_name": "Fondue",
+    "cate_id": "21990235552767",
+    "item_id": "21990236380991",
+    "item_name": "COMBO (FONDUE+SMASH BACON+BATATA+BEBIDA) NÃO ENTREGAMOS",
+    "price": "R$119,90",
+    "image": ""
+  },
+  {
+    "cate_name": "Açaí Gourmet",
+    "cate_id": "21990235651198",
+    "item_id": "21990235247933",
+    "item_name": "Jd. Dom José - Ovomaltine",
+    "price": "R$25,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785247815520-80f45e92-ee7d-46bc-9112-e9a0e20eacdd.png"
+  },
+  {
+    "cate_name": "Açaí Gourmet",
+    "cate_id": "21990235651198",
+    "item_id": "21990235305738",
+    "item_name": "Vale Velho - Oreo",
+    "price": "R$25,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785247848629-e555b856-cc92-4e1d-8b62-8021bd63962e.png"
+  },
+  {
+    "cate_name": "Açaí Gourmet",
+    "cate_id": "21990235651198",
+    "item_id": "21990235189781",
+    "item_name": "Jardim das Rosas - Kit Kat",
+    "price": "R$25,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785249216838-65710da0-d301-445c-a148-1cd789b5ce47.png"
+  },
+  {
+    "cate_name": "Açaí Gourmet",
+    "cate_id": "21990235651198",
+    "item_id": "21990235228037",
+    "item_name": "Pq. Fernanda - Nutella c/ Amendoim",
+    "price": "R$25,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785249317920-ea2bf27a-649b-4ef7-be73-b98e6dace58c.png"
+  },
+  {
+    "cate_name": "Açaí Gourmet",
+    "cate_id": "21990235651198",
+    "item_id": "21990235651202",
+    "item_name": "Pq. Independencia - Chocoball c/ Laka",
+    "price": "R$25,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785249384565-2ed8c9e2-94a8-4422-b48e-e90c9e2fcfff.png"
+  },
+  {
+    "cate_name": "Açaí Gourmet",
+    "cate_id": "21990235651198",
+    "item_id": "21990235209409",
+    "item_name": "Santo Eduardo - M&M",
+    "price": "R$25,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785249601531-50f4f1db-8fd4-4fd7-b364-ae17b9f0dc2b.png"
+  },
+  {
+    "cate_name": "Açaí Gourmet",
+    "cate_id": "21990235651198",
+    "item_id": "21990235189785",
+    "item_name": "Jd. Mitsutani - Paçoca",
+    "price": "R$25,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785249660228-90abd287-c26d-4e69-82da-dc2e6c0e8389.png"
+  },
+  {
+    "cate_name": "Açaí Gourmet",
+    "cate_id": "21990235651198",
+    "item_id": "21990235076187",
+    "item_name": "Pq. Santo Antonio - Nutella C/ Fruta",
+    "price": "R$25,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785249723018-dce75bb5-5e9f-441c-a3ec-19fc3fd3567c.png"
+  },
+  {
+    "cate_name": "Açaí Gourmet",
+    "cate_id": "21990235651198",
+    "item_id": "21990235095411",
+    "item_name": "Jd. Guarujá - Mousse de Maracujá",
+    "price": "R$25,00",
+    "image": ""
+  },
+  {
+    "cate_name": "Açaí Gourmet",
+    "cate_id": "21990235651198",
+    "item_id": "21990235552771",
+    "item_name": "Cohab - Doce de leite",
+    "price": "R$25,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785249924672-5002fb48-58ba-4354-810c-8c2d1b19cddb.png"
+  },
+  {
+    "cate_name": "Açaí Gourmet",
+    "cate_id": "21990235651198",
+    "item_id": "21990235115835",
+    "item_name": "Multirão - Nutella C/ Galak Negresco",
+    "price": "R$25,00",
+    "image": ""
+  },
+  {
+    "cate_name": "Açaí Gourmet",
+    "cate_id": "21990235651198",
+    "item_id": "21990235581953",
+    "item_name": "Açaí do Amor",
+    "price": "R$25,00",
+    "image": ""
+  },
+  {
+    "cate_name": "Monte o seu Açaí",
+    "cate_id": "21990235228029",
+    "item_id": "21990235655938",
+    "item_name": "Monte o seu Açaí",
+    "price": "R$22,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785424569378-68b07041-c01c-4ed6-9095-b06b27115121.png"
+  },
+  {
+    "cate_name": "Açaí Tradicional",
+    "cate_id": "21990235512091",
+    "item_id": "21990235125290",
+    "item_name": "AÇAÍ/CUPUAÇU DE QUEBRADA",
+    "price": "R$10,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785250280102-c0b208a1-ca19-431b-81f7-816890af69be.png"
+  },
+  {
+    "cate_name": "Açaí Tradicional",
+    "cate_id": "21990235512091",
+    "item_id": "21990235044407",
+    "item_name": "Jd. Irene (frutas, granola, leite em pó)",
+    "price": "R$20,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785250491848-b0e9c1d8-c405-4293-86d2-e69ca9ab23aa.png"
+  },
+  {
+    "cate_name": "Hot Dogs",
+    "cate_id": "21990235155510",
+    "item_id": "21990235187479",
+    "item_name": "Hot Dog Simples",
+    "price": "R$12,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785255061835-1d1a6684-3b56-4539-a145-93b04dd03860.png"
+  },
+  {
+    "cate_name": "Hot Dogs",
+    "cate_id": "21990235155510",
+    "item_id": "21990235056851",
+    "item_name": "Hot Dog Completo",
+    "price": "R$16,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785255243359-f0afcead-54c5-4a7d-a889-7efaf8c174ca.png"
+  },
+  {
+    "cate_name": "Entradas",
+    "cate_id": "21990235044399",
+    "item_id": "21990235168586",
+    "item_name": "Batata Frita",
+    "price": "R$20,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785255396139-605db183-4ebc-43b8-92ec-8b511c4ef17f.png"
+  },
+  {
+    "cate_name": "Entradas",
+    "cate_id": "21990235044399",
+    "item_id": "21990235247941",
+    "item_name": "Nuggets",
+    "price": "R$18,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785255555425-9dea3ac4-74da-4464-be75-f43d19d6ddbb.png"
+  },
+  {
+    "cate_name": "Entradas",
+    "cate_id": "21990235044399",
+    "item_id": "21990235651203",
+    "item_name": "Batata frita, molho cheddar e bacon",
+    "price": "R$25,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785255628235-feeb4645-22c6-40ac-b16f-549cbaabf2eb.png"
+  },
+  {
+    "cate_name": "Entradas",
+    "cate_id": "21990235044399",
+    "item_id": "21990235170281",
+    "item_name": "Onios Rings",
+    "price": "R$17,00",
+    "image": ""
+  },
+  {
+    "cate_name": "Combo De Hambúrguer (Batata + Refri)",
+    "cate_id": "21990235138422",
+    "item_id": "21990235472111",
+    "item_name": "Combo Adulto",
+    "price": "R$18,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785255717218-d56176ee-0323-4731-9738-96f68cdd072d.png"
+  },
+  {
+    "cate_name": "Combo De Hambúrguer (Batata + Refri)",
+    "cate_id": "21990235138422",
+    "item_id": "21990235115839",
+    "item_name": "Combo Mirim",
+    "price": "R$15,00",
+    "image": ""
+  },
+  {
+    "cate_name": "Sorvete SARAVETE",
+    "cate_id": "21990235135227",
+    "item_id": "21990235076191",
+    "item_name": "PICOLE DE FRUTAS/AO LEITE",
+    "price": "R$3,50",
+    "image": ""
+  },
+  {
+    "cate_name": "Sorvete SARAVETE",
+    "cate_id": "21990235135227",
+    "item_id": "21990235472115",
+    "item_name": "SARACONE",
+    "price": "R$9,00",
+    "image": ""
+  },
+  {
+    "cate_name": "Sorvete SARAVETE",
+    "cate_id": "21990235135227",
+    "item_id": "21990235189789",
+    "item_name": "SKIMO",
+    "price": "R$7,00",
+    "image": ""
+  },
+  {
+    "cate_name": "Sorvete SARAVETE",
+    "cate_id": "21990235135227",
+    "item_id": "21990235491831",
+    "item_name": "LINHA ESPECIAL",
+    "price": "R$11,00",
+    "image": ""
+  },
+  {
+    "cate_name": "Sorvete SARAVETE",
+    "cate_id": "21990235135227",
+    "item_id": "21990235305744",
+    "item_name": "COPÃO 350ML",
+    "price": "R$7,00",
+    "image": ""
+  },
+  {
+    "cate_name": "Sorvete SARAVETE",
+    "cate_id": "21990235135227",
+    "item_id": "21990235472119",
+    "item_name": "COPINHO 175ML",
+    "price": "R$5,50",
+    "image": ""
+  },
+  {
+    "cate_name": "Sorvete SARAVETE",
+    "cate_id": "21990235135227",
+    "item_id": "21990235154519",
+    "item_name": "POTE DE 2 LITRO",
+    "price": "R$28,00",
+    "image": ""
+  },
+  {
+    "cate_name": "Sorvete SARAVETE",
+    "cate_id": "21990235135227",
+    "item_id": "21990235187487",
+    "item_name": "NINHO TRUFADO 1,5L",
+    "price": "R$32,00",
+    "image": ""
+  },
+  {
+    "cate_name": "Sorvete SARAVETE",
+    "cate_id": "21990235135227",
+    "item_id": "21990235612155",
+    "item_name": "PALETA MEXICANA",
+    "price": "R$12,00",
+    "image": ""
+  },
+  {
+    "cate_name": "Sorvete SARAVETE",
+    "cate_id": "21990235135227",
+    "item_id": "21990235138438",
+    "item_name": "SUNDUE",
+    "price": "R$9,00",
+    "image": ""
+  },
+  {
+    "cate_name": "Taça de Sorvetes (INDISPONÍVEL P/ VIAGEM)",
+    "cate_id": "21990235187471",
+    "item_id": "21990235512103",
+    "item_name": "Copo de Sorvete Mirim 250ML",
+    "price": "R$15,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785257539108-2e1df4d5-588c-4fb1-8ed0-c2ea42d0c981.png"
+  },
+  {
+    "cate_name": "Taça de Sorvetes (INDISPONÍVEL P/ VIAGEM)",
+    "cate_id": "21990235187471",
+    "item_id": "21990235209421",
+    "item_name": "Taça Adulto",
+    "price": "R$28,00",
+    "image": ""
+  },
+  {
+    "cate_name": "Barca (INDISPONÍVEL P/ ENTREGA)",
+    "cate_id": "21990235472103",
+    "item_id": "21990235532563",
+    "item_name": "Barca de 500ML",
+    "price": "R$40,00",
+    "image": ""
+  },
+  {
+    "cate_name": "Barca (INDISPONÍVEL P/ ENTREGA)",
+    "cate_id": "21990235472103",
+    "item_id": "21990235189793",
+    "item_name": "BARCA DE 1L",
+    "price": "R$75,00",
+    "image": ""
+  },
+  {
+    "cate_name": "Hambugueres Artesanais",
+    "cate_id": "21990235259306",
+    "item_id": "21990235661110",
+    "item_name": "Da ponte pra cá",
+    "price": "R$29,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785629705566-420ee9be-d76d-44d4-b737-d595cf61214b.png"
+  },
+  {
+    "cate_name": "Hambugueres Artesanais",
+    "cate_id": "21990235259306",
+    "item_id": "21990235333706",
+    "item_name": "Vila Fundão",
+    "price": "R$29,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785631154514-a39b1bee-9f84-4405-a1fd-a1de62ffde5a.png"
+  },
+  {
+    "cate_name": "Hambugueres Artesanais",
+    "cate_id": "21990235259306",
+    "item_id": "21990235297670",
+    "item_name": "Morro do S",
+    "price": "R$31,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785631377877-e03bcb11-fee9-42b7-a2f6-07204401e5aa.png"
+  },
+  {
+    "cate_name": "Hambugueres Artesanais",
+    "cate_id": "21990235259306",
+    "item_id": "21990235598785",
+    "item_name": "Do Parque",
+    "price": "R$39,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785631722960-597eee54-e0ec-4f1d-9ca3-be92e7144ac2.png"
+  },
+  {
+    "cate_name": "Hambugueres Artesanais",
+    "cate_id": "21990235259306",
+    "item_id": "21990235239218",
+    "item_name": "Mboi",
+    "price": "R$33,00",
+    "image": ""
+  },
+  {
+    "cate_name": "Hambugueres Artesanais",
+    "cate_id": "21990235259306",
+    "item_id": "21990235562273",
+    "item_name": "Itapecerica",
+    "price": "R$38,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785633125846-e1a5a8a0-0f3a-4c7a-8baa-9e83fe3f4f54.png"
+  },
+  {
+    "cate_name": "Bebidas de açaí",
+    "cate_id": "21990235491823",
+    "item_id": "21990235491839",
+    "item_name": "Suco de açaí",
+    "price": "R$20,00",
+    "image": ""
+  },
+  {
+    "cate_name": "Bebidas de açaí",
+    "cate_id": "21990235491823",
+    "item_id": "21990235612163",
+    "item_name": "Batida de açaí (Alcoólicos)",
+    "price": "R$23,00",
+    "image": ""
+  },
+  {
+    "cate_name": "ADICIONAS A PARTE (AÇAÍ)",
+    "cate_id": "21990235211045",
+    "item_id": "21990235613627",
+    "item_name": "ADICIONAIS AÇAÍ",
+    "price": "R$0,00",
+    "image": ""
+  },
+  {
+    "cate_name": "Milk Shake 400ml",
+    "cate_id": "21990235076183",
+    "item_id": "21990235076195",
+    "item_name": "Milk Shake 360ml.",
+    "price": "R$18,00",
+    "image": ""
+  },
+  {
+    "cate_name": "Bebidas",
+    "cate_id": "21990235491819",
+    "item_id": "21990235125298",
+    "item_name": "Coca-Cola Original 350ml",
+    "price": "R$7,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785256129431-7b2fba84-5570-4398-b24e-a5e0888f45e5.png"
+  },
+  {
+    "cate_name": "Bebidas",
+    "cate_id": "21990235491819",
+    "item_id": "21990235154515",
+    "item_name": "Refrigerante Fanta 350ml",
+    "price": "R$7,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785256151408-8de9de7e-35e0-420e-88bd-d169226c4ba6.png"
+  },
+  {
+    "cate_name": "Bebidas",
+    "cate_id": "21990235491819",
+    "item_id": "21990235305742",
+    "item_name": "Refrigerante Guaraná Antarctica Lata 350ml",
+    "price": "R$7,00",
+    "image": "https://s3-uspu-cdn.didiglobal.com/food-saas-infra/items/1785256175454-1732c45c-8583-401b-9108-0b708fd595c9.png"
+  },
+  {
+    "cate_name": "Bebidas",
+    "cate_id": "21990235491819",
+    "item_id": "21990235056863",
+    "item_name": "Coca Cola Zero",
+    "price": "R$7,00",
+    "image": ""
+  },
+  {
+    "cate_name": "Bebidas",
+    "cate_id": "21990235491819",
+    "item_id": "21990235209413",
+    "item_name": "Dell Vale 350ml",
+    "price": "R$8,00",
+    "image": ""
+  },
+  {
+    "cate_name": "Bebidas",
+    "cate_id": "21990235491819",
+    "item_id": "21990235115843",
+    "item_name": "Água",
+    "price": "R$4,00",
+    "image": ""
+  },
+  {
+    "cate_name": "Bebidas",
+    "cate_id": "21990235491819",
+    "item_id": "21990235491827",
+    "item_name": "Água com gás",
+    "price": "R$5,00",
+    "image": ""
+  },
+  {
+    "cate_name": "Bebidas",
+    "cate_id": "21990235491819",
+    "item_id": "21990235138434",
+    "item_name": "Cerveja Original 269ml",
+    "price": "R$6,50",
+    "image": ""
+  },
+  {
+    "cate_name": "SALADA DE FRUTA 300ML",
+    "cate_id": "21990238376777",
+    "item_id": "21990238181558",
+    "item_name": "SALADA DE FRUTA 300ML",
+    "price": "R$15,00",
+    "image": ""
+  }
+]
